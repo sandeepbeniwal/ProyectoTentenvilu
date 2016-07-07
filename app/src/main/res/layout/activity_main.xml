@@ -15,18 +15,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton_abecedario"
-        android:id="@+id/button" />
+        android:id="@+id/btn_abc"
+        android:onClick="ejecutarBotonesMain" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton_categorias"
-        android:id="@+id/button2" />
+        android:id="@+id/btn_categorias"
+        android:onClick="ejecutarBotonesMain" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton_informacion"
-        android:id="@+id/button3" />
+        android:id="@+id/btn_informacion"
+        android:onClick="ejecutarBotonesMain" />
 
 </LinearLayout>
