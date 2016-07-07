@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Abc_Activity" />
+        <activity android:name=".CategoriasActivity" />
+        <activity android:name=".InformacionActivity" />
+        <activity android:name=".PalabrasActivity"></activity>
     </application>
 
 </manifest>

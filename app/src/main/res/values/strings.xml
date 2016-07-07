@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Aprehende Mapudungun</string>
+    <string name="app_name">Aprehende Mapudungún</string>
+    <string name="titulo">Aprehende Mapudungún</string>
+    <string name="boton_abecedario">Abecedario</string>
+    <string name="boton_categorias">Categorias</string>
+    <string name="boton_informacion">Información</string>
 </resources>
