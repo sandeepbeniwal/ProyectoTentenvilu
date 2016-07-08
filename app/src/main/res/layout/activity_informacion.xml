@@ -11,7 +11,17 @@
         android:layout_height="wrap_content"
         android:gravity="left"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:background="@color/LinearLayoutA">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/sinnombre1"
+            android:layout_marginTop="@dimen/Margen_logo"
+            android:layout_marginBottom="@dimen/Margen_logo" />
+
 
         <TextView
             android:layout_width="wrap_content"

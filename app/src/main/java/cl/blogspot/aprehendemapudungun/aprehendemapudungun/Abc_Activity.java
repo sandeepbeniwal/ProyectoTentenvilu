@@ -151,8 +151,8 @@ public class Abc_Activity extends AppCompatActivity
     private void mensajeToast()
     {
 
-        String mensaje = "No hay palabras disponibles";
-        Toast.makeText(getApplicationContext(), mensaje, Toast.LENGTH_SHORT).show();
+        String mensaje = "No existen palabras con esta letra";
+        Toast.makeText(getApplicationContext(), mensaje, Toast.LENGTH_LONG).show();
 
     }
 

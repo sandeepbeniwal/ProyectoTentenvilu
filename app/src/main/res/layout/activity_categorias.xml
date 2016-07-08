@@ -15,6 +15,14 @@
         android:layout_weight="1"
         android:background="@color/LinearLayoutA">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/sinnombre1"
+            android:layout_marginTop="@dimen/Margen_logo"
+            android:layout_marginBottom="@dimen/Margen_logo" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,16 +33,15 @@
 
     </LinearLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="left"
-        android:layout_weight="1"
+        android:layout_weight="9"
+        android:scrollbars="vertical"
         android:background="@color/LinearLayoutB">
 
         <Button
@@ -47,7 +54,7 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -59,7 +66,7 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -71,7 +78,7 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -83,7 +90,7 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -95,7 +102,7 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -107,7 +114,7 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -119,13 +126,12 @@
             android:textColor="@color/ColorTextoBoton"
             android:textSize="@dimen/Tam_letra_btns"
             android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn" />
+            android:layout_marginTop="@dimen/Margen_btn_cat" />
 
 
 
 
     </LinearLayout>
 
-    </ScrollView>
 
 </LinearLayout>
