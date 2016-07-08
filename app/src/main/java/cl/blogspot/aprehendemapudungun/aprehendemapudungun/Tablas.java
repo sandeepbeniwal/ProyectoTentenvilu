@@ -21,7 +21,7 @@ public class Tablas extends AdministradorBD
 
 
 
-    public static final String INSERTAR_LETRA_A ="INSERT INTO " + TABLE_LETRA_A + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_A = "INSERT INTO " + TABLE_LETRA_A + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES "+
             "('A (prep)','Meu')," +
             "('A un lado','Kiñepele')," +
@@ -37,7 +37,7 @@ public class Tablas extends AdministradorBD
 
 
 
-    public static final String INSERTAR_LETRA_B="INSERT INTO " + TABLE_LETRA_B + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_B = "INSERT INTO " + TABLE_LETRA_B + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES "+
             "('babas','ülwi' )," +
             "('babear, perder las babas ','ülwin')," +
@@ -48,7 +48,7 @@ public class Tablas extends AdministradorBD
 
 
 
-    public static final String INSERTAR_LETRA_C="INSERT INTO " + TABLE_LETRA_C + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_C = "INSERT INTO " + TABLE_LETRA_C + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('caballo','kawell' )," +
             "('cabecear','mülchongn' )," +
@@ -58,7 +58,7 @@ public class Tablas extends AdministradorBD
             ";";
 
 
-    public static final String INSERTAR_LETRA_D="INSERT INTO " + TABLE_LETRA_D + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_D = "INSERT INTO " + TABLE_LETRA_D + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('danza','perun' )," +
             "('dar comienzo a alguna cosa ','tuweln' )," +
@@ -69,7 +69,7 @@ public class Tablas extends AdministradorBD
             ";";
 
 
-    public static final String INSERTAR_LETRA_E="INSERT INTO " + TABLE_LETRA_E + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_E = "INSERT INTO " + TABLE_LETRA_E + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('eco','awkinko' )," +
             "('embarrarse','peletun' )," +
@@ -79,7 +79,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_F="INSERT INTO " + TABLE_LETRA_F + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_F = "INSERT INTO " + TABLE_LETRA_F + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('fauces','ngiñngo' )," +
             "('fiebre','aling' )," +
@@ -90,7 +90,7 @@ public class Tablas extends AdministradorBD
             ";";
 
 
-    public static final String INSERTAR_LETRA_G="INSERT INTO " + TABLE_LETRA_G + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_G = "INSERT INTO " + TABLE_LETRA_G + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('gallina - gallo ',' achaw - achawa' )," +
             "('galopar;','wirafün' )," +
@@ -100,7 +100,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_H="INSERT INTO " + TABLE_LETRA_H + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_H = "INSERT INTO " + TABLE_LETRA_H + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('hablar','dungun' )," +
             "('hambre','ngeñü' )," +
@@ -110,7 +110,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_I="INSERT INTO " + TABLE_LETRA_I + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_I = "INSERT INTO " + TABLE_LETRA_I + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('idioma','mapudungu' )," +
             "('imitar','inawentu' )," +
@@ -120,7 +120,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_J="INSERT INTO " + TABLE_LETRA_J + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_J = "INSERT INTO " + TABLE_LETRA_J + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('jactarse,','malmakawn' )," +
             "('joroba','ngetrufuri' )," +
@@ -129,8 +129,16 @@ public class Tablas extends AdministradorBD
             "('jugar','awkantun' )" +
 
             ";";
+    /*
+    public static final String INSERTAR_LETRA_K = "INSERT INTO " + TABLE_LETRA_K + " (" + CN_ESP + "," + CN_MAPU +")"
+            + " VALUES"+
+            "('','')," +
+            "('','')" +
+            ";";
+    */
 
-    public static final String INSERTAR_LETRA_L="INSERT INTO " + TABLE_LETRA_L + " (" + CN_ESP + "," + CN_MAPU +")"
+
+    public static final String INSERTAR_LETRA_L = "INSERT INTO " + TABLE_LETRA_L + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('labios','mellfü' )," +
             "('labrado','kaf' )," +
@@ -140,16 +148,8 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_LL="INSERT INTO " + TABLE_LETRA_LL + " (" + CN_ESP + "," + CN_MAPU +")"
-            + " VALUES"+
-            "('Llaga','allfen' )," +
-            "('Llamado','metrën' )," +
-            "('Llama de fuego','weiwiñkütral' )" +
 
-            ";";
-
-
-    public static final String INSERTAR_LETRA_M="INSERT INTO " + TABLE_LETRA_M + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_M = "INSERT INTO " + TABLE_LETRA_M + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('mamita','papay' )," +
             "('mañana','ule' )," +
@@ -159,7 +159,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_N="INSERT INTO " + TABLE_LETRA_N + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_N = "INSERT INTO " + TABLE_LETRA_N + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('niña,','malen' )," +
             "('niño,','weñi' )," +
@@ -168,8 +168,15 @@ public class Tablas extends AdministradorBD
             "('nube','tromü' )" +
 
             ";";
+    /*
+    public static final String INSERTAR_LETRA_Ñ = "INSERT INTO " + TABLE_LETRA_Ñ + " (" + CN_ESP + "," + CN_MAPU +")"
+            + " VALUES"+
+            "('','')," +
+            "('','')" +
+            ";";
+    */
 
-    public static final String INSERTAR_LETRA_O="INSERT INTO " + TABLE_LETRA_O + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_O = "INSERT INTO " + TABLE_LETRA_O + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('obedecer','yedengun' )," +
             "('ocho','pura' )," +
@@ -179,7 +186,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_P="INSERT INTO " + TABLE_LETRA_P + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_P = "INSERT INTO " + TABLE_LETRA_P + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('paloma','kono' )," +
             "('pan','kofke' )," +
@@ -189,7 +196,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_Q="INSERT INTO " + TABLE_LETRA_Q + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_Q = "INSERT INTO " + TABLE_LETRA_Q + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('quebrar','trayayün' )," +
             "('quedar ciego ','trawman' )," +
@@ -199,7 +206,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_R="INSERT INTO " + TABLE_LETRA_R + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_R = "INSERT INTO " + TABLE_LETRA_R + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('raíz','folil' )," +
             "('rama,','row' )," +
@@ -209,7 +216,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_S="INSERT INTO " + TABLE_LETRA_S + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_S = "INSERT INTO " + TABLE_LETRA_S + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('saber','kimen' )," +
             "('sacudir','mütrün' )," +
@@ -219,7 +226,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_T="INSERT INTO " + TABLE_LETRA_T + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_T = "INSERT INTO " + TABLE_LETRA_T + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('tabaco','petrem' )," +
             "('tabla','trafla' )," +
@@ -227,7 +234,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_U="INSERT INTO " + TABLE_LETRA_U + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_U = "INSERT INTO " + TABLE_LETRA_U + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('ultimo día ','afantü' )," +
             "('una vez ',' kiñe rupachi' )," +
@@ -235,7 +242,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_V="INSERT INTO " + TABLE_LETRA_V + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_V = "INSERT INTO " + TABLE_LETRA_V + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('vaca','waka' )," +
             "('vaciarse','wellin' )," +
@@ -243,7 +250,22 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_Y="INSERT INTO " + TABLE_LETRA_Y + " (" + CN_ESP + "," + CN_MAPU +")"
+    /*
+    public static final String INSERTAR_LETRA_W = "INSERT INTO " + TABLE_LETRA_W + " (" + CN_ESP + "," + CN_MAPU +")"
+            + " VALUES"+
+            "('','')," +
+            "('','')" +
+            ";";
+
+    public static final String INSERTAR_LETRA_X = "INSERT INTO " + TABLE_LETRA_X + " (" + CN_ESP + "," + CN_MAPU +")"
+            + " VALUES"+
+            "('','')," +
+            "('','')" +
+            ";";
+    */
+
+
+    public static final String INSERTAR_LETRA_Y = "INSERT INTO " + TABLE_LETRA_Y + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('y a quién más?',' ka iney am' )," +
             "('yapa','yompeñ' )," +
@@ -251,7 +273,7 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-    public static final String INSERTAR_LETRA_Z="INSERT INTO " + TABLE_LETRA_Z + " (" + CN_ESP + "," + CN_MAPU +")"
+    public static final String INSERTAR_LETRA_Z = "INSERT INTO " + TABLE_LETRA_Z + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES"+
             "('zambullirse','remun' )," +
             "('zancudo','rofi' )," +

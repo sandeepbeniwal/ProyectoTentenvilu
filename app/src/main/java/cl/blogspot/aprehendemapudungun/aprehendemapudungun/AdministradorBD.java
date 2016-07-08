@@ -29,10 +29,11 @@ public class AdministradorBD
     public static final String TABLE_LETRA_H = "LETRA_H";
     public static final String TABLE_LETRA_I = "LETRA_I";
     public static final String TABLE_LETRA_J = "LETRA_J";
+  //public static final String TABLE_LETRA_K = "LETRA_K";
     public static final String TABLE_LETRA_L = "LETRA_L";
-    public static final String TABLE_LETRA_LL = "LETRA_LL";
     public static final String TABLE_LETRA_M = "LETRA_M";
     public static final String TABLE_LETRA_N = "LETRA_N";
+  //public static final String TABLE_LETRA_Ñ = "LETRA_Ñ";
     public static final String TABLE_LETRA_O = "LETRA_O";
     public static final String TABLE_LETRA_P = "LETRA_P";
     public static final String TABLE_LETRA_Q = "LETRA_Q";
@@ -41,6 +42,8 @@ public class AdministradorBD
     public static final String TABLE_LETRA_T = "LETRA_T";
     public static final String TABLE_LETRA_U = "LETRA_U";
     public static final String TABLE_LETRA_V = "LETRA_V";
+  //public static final String TABLE_LETRA_W = "LETRA_W";
+  //public static final String TABLE_LETRA_X = "LETRA_X";
     public static final String TABLE_LETRA_Y = "LETRA_Y";
     public static final String TABLE_LETRA_Z = "LETRA_Z";
 
@@ -101,14 +104,13 @@ public class AdministradorBD
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
-
-
-    public static final String CREATE_TABLE_L = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_L + " ("
+    /*
+    public static final String CREATE_TABLE_LL = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_K + " ("
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
-
-    public static final String CREATE_TABLE_LL = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_LL + " ("
+    */
+    public static final String CREATE_TABLE_L = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_L + " ("
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
@@ -122,7 +124,12 @@ public class AdministradorBD
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
-
+    /*
+    public static final String CREATE_TABLE_LL = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_Ñ + " ("
+            + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + CN_ESP + " TEXT NOT NULL,"
+            + CN_MAPU + " TEXT NOT NULL);";
+    */
     public static final String CREATE_TABLE_O = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_O + " ("
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
@@ -162,7 +169,17 @@ public class AdministradorBD
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
+    /*
+    public static final String CREATE_TABLE_W = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_W + " ("
+            + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + CN_ESP + " TEXT NOT NULL,"
+            + CN_MAPU + " TEXT NOT NULL);";
 
+    public static final String CREATE_TABLE_X = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_X + " ("
+            + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + CN_ESP + " TEXT NOT NULL,"
+            + CN_MAPU + " TEXT NOT NULL);";
+    */
     public static final String CREATE_TABLE_Y = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_Y + " ("
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
@@ -216,13 +233,15 @@ public class AdministradorBD
 
             case 'J': return sqLiteDatabase.query(TABLE_LETRA_J,columnas,null,null,null,null,null);
 
-            case 'L': return sqLiteDatabase.query(TABLE_LETRA_L,columnas,null,null,null,null,null);
+          //case 'K': return sqLiteDatabase.query(TABLE_LETRA_K,columnas,null,null,null,null,null);
 
-            case 'X': return sqLiteDatabase.query(TABLE_LETRA_LL,columnas,null,null,null,null,null);
+            case 'L': return sqLiteDatabase.query(TABLE_LETRA_L,columnas,null,null,null,null,null);
 
             case 'M': return sqLiteDatabase.query(TABLE_LETRA_M,columnas,null,null,null,null,null);
 
             case 'N': return sqLiteDatabase.query(TABLE_LETRA_N,columnas,null,null,null,null,null);
+
+          //case 'Ñ': return sqLiteDatabase.query(TABLE_LETRA_Ñ,columnas,null,null,null,null,null);
 
             case 'O': return sqLiteDatabase.query(TABLE_LETRA_O,columnas,null,null,null,null,null);
 
@@ -239,6 +258,10 @@ public class AdministradorBD
             case 'U': return sqLiteDatabase.query(TABLE_LETRA_U,columnas,null,null,null,null,null);
 
             case 'V': return sqLiteDatabase.query(TABLE_LETRA_V,columnas,null,null,null,null,null);
+
+          //case 'W': return sqLiteDatabase.query(TABLE_LETRA_W,columnas,null,null,null,null,null);
+
+          //case 'X': return sqLiteDatabase.query(TABLE_LETRA_X,columnas,null,null,null,null,null);
 
             case 'Y': return sqLiteDatabase.query(TABLE_LETRA_Y,columnas,null,null,null,null,null);
 

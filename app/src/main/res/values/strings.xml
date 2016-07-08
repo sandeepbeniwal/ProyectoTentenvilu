@@ -5,4 +5,6 @@
     <string name="boton_categorias">Categorias</string>
     <string name="boton_informacion">Información</string>
     <string name="TituloAbc">Abecedario</string>
+    <string name="TituloActPalabras">Palabras con la letra:</string>
+    <string name="SubtitActPalabras">letra</string>
 </resources>
