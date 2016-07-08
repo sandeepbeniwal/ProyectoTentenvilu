@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+
+        android:background="@color/LinearLayoutA">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/sinnombre1"
+            android:layout_marginTop="@dimen/Margen_logo"
+            android:layout_marginBottom="@dimen/Margen_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TitCatNum"
+            android:textSize="@dimen/tamano_titulo"
+            android:textColor="@color/ColorLetras" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/LinearLayoutB"
+        android:gravity="left">
+
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_1"
+                android:id="@+id/tv_num_1"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_2"
+                android:id="@+id/tv_num_2"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_3"
+                android:id="@+id/tv_num_3"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_4"
+                android:id="@+id/tv_num_4"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_5"
+                android:id="@+id/tv_num_5"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_6"
+                android:id="@+id/tv_num_6"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_7"
+                android:id="@+id/tv_num_7"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_8"
+                android:id="@+id/tv_num_8"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_9"
+                android:id="@+id/tv_num_9"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_10"
+                android:id="@+id/tv_num_10"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_11"
+                android:id="@+id/tv_num_11"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_12"
+                android:id="@+id/tv_num_12"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_20"
+                android:id="@+id/tv_num_20"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_21"
+                android:id="@+id/tv_num_21"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_25"
+                android:id="@+id/tv_num_25"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_40"
+                android:id="@+id/tv_num_40"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_70"
+                android:id="@+id/tv_num_70"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_100"
+                android:id="@+id/tv_num_100"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_120"
+                android:id="@+id/tv_num_120"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_850"
+                android:id="@+id/tv_num_850"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_1000"
+                android:id="@+id/tv_num_1000"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Numeros_2000"
+                android:id="@+id/tv_num_2000"
+                android:textColor="@color/ColorLetras"
+                android:textSize="@dimen/Tamano_texto_subcat" />
+
+
+
+
+        </LinearLayout>
+
+</ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

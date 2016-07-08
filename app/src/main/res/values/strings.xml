@@ -14,4 +14,28 @@
         [ german.riveross@gmail.com ], Github [ https://github.com/profGerman/ProyectoTentenvilu ] ,
         Blog [ http://aprehendemapudungun.blogspot.cl ]
     </string>
+    <string name="TitCatNum">Números</string>
+    <string name="Numeros_1">Kiñe: uno</string>
+    <string name="Numeros_2">Epu:  dos</string>
+    <string name="Numeros_3">Küla: tres</string>
+    <string name="Numeros_4">Meli: cuatro</string>
+    <string name="Numeros_5">Kechu: cinco</string>
+    <string name="Numeros_6">Kayu: seis</string>
+    <string name="Numeros_7">Regle: siete</string>
+    <string name="Numeros_8">Pura: ocho</string>
+    <string name="Numeros_9">Aylla: nueve</string>
+    <string name="Numeros_10">Mari: diez</string>
+    <string name="Numeros_11">Mari kiñe: once</string>
+    <string name="Numeros_12">Mari epu: doce</string>
+    <string name="Numeros_20">Epu mari: veinte</string>
+    <string name="Numeros_21">Epu mari kiñe: veintiuno</string>
+    <string name="Numeros_25">Epu mari kechu: veinticinco</string>
+    <string name="Numeros_40">Meli mari: cuarenta</string>
+    <string name="Numeros_70">Regle mari: setenta</string>
+    <string name="Numeros_100">Pataka: cien</string>
+    <string name="Numeros_120">Kiñe pataka epu mari: ciento veinte</string>
+    <string name="Numeros_850">Pura pataka kechu mari: ochocientos cincuenta</string>
+    <string name="Numeros_1000">Waranga: mil</string>
+    <string name="Numeros_2000">Epu waranga: dos mil</string>
+    <string name="TitCatPron">Pronunciación</string>
 </resources>

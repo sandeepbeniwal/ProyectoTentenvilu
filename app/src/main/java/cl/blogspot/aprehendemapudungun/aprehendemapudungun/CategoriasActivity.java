@@ -42,8 +42,9 @@ public class CategoriasActivity extends AppCompatActivity
 
         switch (view.getId())
         {
-            //pendiente
-            //empezar
+            case R.id.btn_numeros:
+                setContentView(R.layout.layout_numeros);
+                break;
 
         }
     }

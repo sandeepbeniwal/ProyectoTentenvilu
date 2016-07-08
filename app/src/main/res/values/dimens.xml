@@ -15,4 +15,5 @@
     <dimen name="Margen_Subtit">10dp</dimen>
     <dimen name="Tamano_texto_inf">25sp</dimen>
     <dimen name="Margen_logo">7dp</dimen>
+    <dimen name="Tamano_texto_subcat">20sp</dimen>
 </resources>
