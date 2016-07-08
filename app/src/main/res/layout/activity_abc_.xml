@@ -1,12 +1,390 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="cl.blogspot.aprehendemapudungun.aprehendemapudungun.Abc_Activity">
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:background="@color/LinearLayoutA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TituloAbc"
+            android:textSize="@dimen/tamano_titulo"
+            android:textColor="@color/ColorLetras" />
+
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="@color/LinearLayoutB"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:id="@+id/btn_A"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:id="@+id/btn_B"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:id="@+id/btn_C"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:id="@+id/btn_D"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:id="@+id/btn_E"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:id="@+id/btn_F"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:id="@+id/btn_G"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H"
+                android:id="@+id/btn_H"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/btn_I"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J"
+                android:id="@+id/btn_J"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K"
+                android:id="@+id/btn_K"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:id="@+id/btn_L"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:id="@+id/btn_M"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N"
+                android:id="@+id/btn_N"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ñ"
+                android:id="@+id/btn_Ñ"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:id="@+id/btn_O"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:id="@+id/btn_P"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q"
+                android:id="@+id/btn_Q"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R"
+                android:id="@+id/btn_R"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:id="@+id/btn_S"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:id="@+id/btn_T"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="U"
+                android:id="@+id/btn_U"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/btn_V"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W"
+                android:id="@+id/btn_W"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:id="@+id/btn_X"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y"
+                android:id="@+id/btn_Y"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z"
+                android:id="@+id/btn_Z"
+                android:background="@color/FondoBoton"
+                android:textSize="@dimen/Tam_letra_btns"
+                android:textColor="@color/ColorTextoBoton"
+                android:layout_margin="@dimen/Margen_btn_ABC"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

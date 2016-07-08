@@ -4,4 +4,5 @@
     <string name="boton_abecedario">Abecedario</string>
     <string name="boton_categorias">Categorias</string>
     <string name="boton_informacion">Información</string>
+    <string name="TituloAbc">Abecedario</string>
 </resources>
