@@ -1,12 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="cl.blogspot.aprehendemapudungun.aprehendemapudungun.CategoriasActivity">
 
-</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:background="@color/LinearLayoutA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TituloCat"
+            android:textSize="@dimen/tamano_titulo"
+            android:textColor="@color/ColorLetras" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:background="@color/LinearLayoutB">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pronunciación"
+            android:id="@+id/btn_pronunciacion"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animales"
+            android:id="@+id/btn_animales"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Números"
+            android:id="@+id/btn_numeros"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saludo y despedida"
+            android:id="@+id/btn_saludos"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colores"
+            android:id="@+id/btn_colores"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actividades"
+            android:id="@+id/btn_actividades"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cosas del entorno"
+            android:id="@+id/btn_cosas"
+            android:background="@color/FondoBoton"
+            android:height="@dimen/Tam_alt_btns_cat"
+            android:textColor="@color/ColorTextoBoton"
+            android:textSize="@dimen/Tam_letra_btns"
+            android:width="@dimen/Tam_anch_btns_cat"
+            android:layout_marginTop="@dimen/Margen_btn" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

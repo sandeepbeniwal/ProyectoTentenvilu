@@ -6,8 +6,11 @@
     <dimen name="tamano_Subtitulo">35sp</dimen>
     <dimen name="Tam_letra_btns">25sp</dimen>
     <dimen name="Tam_alt_btns">70dp</dimen>
+    <dimen name="Tam_alt_btns_cat">50dp</dimen>
     <dimen name="Tam_anch_btns">200dp</dimen>
+    <dimen name="Tam_anch_btns_cat">300dp</dimen>
     <dimen name="Margen_btn">10dp</dimen>
     <dimen name="Margen_btn_ABC">5dp</dimen>
     <dimen name="Margen_Subtit">10dp</dimen>
+    <dimen name="Tamano_texto_inf">25sp</dimen>
 </resources>

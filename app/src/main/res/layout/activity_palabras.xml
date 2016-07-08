@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
 
-        android:gravity="left">
+        android:gravity="left"
+        android:background="@color/LinearLayoutA">
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        >
+        android:background="@color/LinearLayoutB">
 
         <ListView
             android:layout_width="match_parent"

@@ -7,4 +7,11 @@
     <string name="TituloAbc">Abecedario</string>
     <string name="TituloActPalabras">Palabras con la letra:</string>
     <string name="SubtitActPalabras">letra</string>
+    <string name="TituloCat">Categorias</string>
+    <string name="TituloInf">Información</string>
+
+    <string name="TextoInf">Creado por [ Germán Riveros Sepúlveda ], E-mail
+        [ german.riveross@gmail.com ], Github [ https://github.com/profGerman/ProyectoTentenvilu ] ,
+        Blog [ http://proyectotentenvilu.blogspot.cl ]
+    </string>
 </resources>

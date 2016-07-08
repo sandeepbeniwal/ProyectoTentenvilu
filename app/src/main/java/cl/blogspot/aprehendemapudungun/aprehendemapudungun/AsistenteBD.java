@@ -94,11 +94,10 @@ public class AsistenteBD extends SQLiteOpenHelper
         db.execSQL(Tablas.INSERTAR_LETRA_Y);
         db.execSQL(Tablas.INSERTAR_LETRA_Z);
 
-
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {}
 
 
-}
+}//.
