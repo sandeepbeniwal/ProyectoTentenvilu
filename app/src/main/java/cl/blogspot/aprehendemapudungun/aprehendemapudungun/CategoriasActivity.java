@@ -43,6 +43,7 @@ public class CategoriasActivity extends AppCompatActivity
         switch (view.getId())
         {
             //pendiente
+            //empezar
 
         }
     }
