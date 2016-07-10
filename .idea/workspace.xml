@@ -32,6 +32,16 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AndroidLogFilters">
@@ -39,9 +49,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30387b3-bcec-466b-afd1-c18a04830129" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatNumerosActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatPronomActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatPronunActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cat_numeros.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronun.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
@@ -66,100 +83,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CategoriasActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CategoriasActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="44" />
+            <state vertical-scroll-proportion="1.3086735">
+              <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_numeros.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2641509">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="e#700#720#0" expanded="true" />
-                <element signature="e#761#781#0" expanded="true" />
-                <element signature="e#926#945#0" expanded="true" />
-                <element signature="e#975#997#0" expanded="true" />
-                <element signature="e#1771#1790#0" expanded="true" />
-                <element signature="e#1922#1950#0" expanded="true" />
-                <element signature="e#2111#2130#0" expanded="true" />
-                <element signature="e#2262#2290#0" expanded="true" />
-                <element signature="e#2451#2470#0" expanded="true" />
-                <element signature="e#2602#2630#0" expanded="true" />
-                <element signature="e#2791#2810#0" expanded="true" />
-                <element signature="e#2942#2970#0" expanded="true" />
-                <element signature="e#3131#3150#0" expanded="true" />
-                <element signature="e#3282#3310#0" expanded="true" />
-                <element signature="e#3471#3490#0" expanded="true" />
-                <element signature="e#3622#3650#0" expanded="true" />
-                <element signature="e#3811#3830#0" expanded="true" />
-                <element signature="e#3962#3990#0" expanded="true" />
-                <element signature="e#4151#4170#0" expanded="true" />
-                <element signature="e#4302#4330#0" expanded="true" />
-                <element signature="e#4491#4510#0" expanded="true" />
-                <element signature="e#4642#4670#0" expanded="true" />
-                <element signature="e#4831#4851#0" expanded="true" />
-                <element signature="e#4984#5012#0" expanded="true" />
-                <element signature="e#5174#5194#0" expanded="true" />
-                <element signature="e#5327#5355#0" expanded="true" />
-                <element signature="e#5516#5536#0" expanded="true" />
-                <element signature="e#5669#5697#0" expanded="true" />
-                <element signature="e#5858#5878#0" expanded="true" />
-                <element signature="e#6011#6039#0" expanded="true" />
-                <element signature="e#6200#6220#0" expanded="true" />
-                <element signature="e#6353#6381#0" expanded="true" />
-                <element signature="e#6542#6562#0" expanded="true" />
-                <element signature="e#6695#6723#0" expanded="true" />
-                <element signature="e#6884#6904#0" expanded="true" />
-                <element signature="e#7037#7065#0" expanded="true" />
-                <element signature="e#7226#7246#0" expanded="true" />
-                <element signature="e#7379#7407#0" expanded="true" />
-                <element signature="e#7568#7589#0" expanded="true" />
-                <element signature="e#7723#7751#0" expanded="true" />
-                <element signature="e#7912#7933#0" expanded="true" />
-                <element signature="e#8067#8095#0" expanded="true" />
-                <element signature="e#8256#8277#0" expanded="true" />
-                <element signature="e#8411#8439#0" expanded="true" />
-                <element signature="e#8600#8622#0" expanded="true" />
-                <element signature="e#8757#8785#0" expanded="true" />
-                <element signature="e#8946#8968#0" expanded="true" />
-                <element signature="e#9103#9131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_pronunciacion.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.375">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-              <folding>
-                <element signature="e#699#719#0" expanded="true" />
-                <element signature="e#760#780#0" expanded="true" />
-                <element signature="e#975#997#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.7647057">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state vertical-scroll-proportion="-9.411765">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_cat_pronom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronom.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatPronomActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatPronomActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_cat_numeros.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_numeros.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8301888">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_categorias.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_cat_pronun.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronun.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.166667">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1494,7 +1494,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4403734683000" />
+        <entry key="$PROJECT_DIR$" value="4403824500000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1779,11 +1779,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronun.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cat_numeros.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java" />
       </list>
     </option>
   </component>
@@ -1816,6 +1819,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1840,28 +1847,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aprehende Mapudungun" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimens.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1937,28 +1922,24 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="Dispositivo_1" />
+    <property name="device.picker.selection" value="Nexus_4_API_23" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
       <recent name="cl.blogspot.aprehendemapudungun.aprehendemapudungun" />
+      <recent name="cl.blogspot.aprehendemapudungun.aprehendemapudungun.test" />
+      <recent name="layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -2242,13 +2223,13 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.273021" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.48707592" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23021002" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40509915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2256,7 +2237,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19386107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2284,210 +2265,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#874#894#0" expanded="true" />
-            <element signature="e#935#955#0" expanded="true" />
-            <element signature="e#1101#1120#0" expanded="true" />
-            <element signature="e#1150#1172#0" expanded="true" />
-            <element signature="e#1665#1683#0" expanded="true" />
-            <element signature="e#1713#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1093#1112#0" expanded="true" />
-            <element signature="e#1142#1164#0" expanded="true" />
-            <element signature="e#2124#2147#0" expanded="true" />
-            <element signature="e#2245#2268#0" expanded="true" />
-            <element signature="e#2609#2632#0" expanded="true" />
-            <element signature="e#2731#2754#0" expanded="true" />
-            <element signature="e#3095#3118#0" expanded="true" />
-            <element signature="e#3217#3240#0" expanded="true" />
-            <element signature="e#3581#3604#0" expanded="true" />
-            <element signature="e#3702#3725#0" expanded="true" />
-            <element signature="e#4066#4089#0" expanded="true" />
-            <element signature="e#4187#4210#0" expanded="true" />
-            <element signature="e#4804#4827#0" expanded="true" />
-            <element signature="e#4925#4948#0" expanded="true" />
-            <element signature="e#5289#5312#0" expanded="true" />
-            <element signature="e#5410#5433#0" expanded="true" />
-            <element signature="e#5774#5797#0" expanded="true" />
-            <element signature="e#5895#5918#0" expanded="true" />
-            <element signature="e#6259#6282#0" expanded="true" />
-            <element signature="e#6380#6403#0" expanded="true" />
-            <element signature="e#6744#6767#0" expanded="true" />
-            <element signature="e#6865#6888#0" expanded="true" />
-            <element signature="e#7483#7506#0" expanded="true" />
-            <element signature="e#7604#7627#0" expanded="true" />
-            <element signature="e#7974#7997#0" expanded="true" />
-            <element signature="e#8095#8118#0" expanded="true" />
-            <element signature="e#8459#8482#0" expanded="true" />
-            <element signature="e#8580#8603#0" expanded="true" />
-            <element signature="e#8944#8967#0" expanded="true" />
-            <element signature="e#9065#9088#0" expanded="true" />
-            <element signature="e#9429#9452#0" expanded="true" />
-            <element signature="e#9550#9573#0" expanded="true" />
-            <element signature="e#10174#10197#0" expanded="true" />
-            <element signature="e#10295#10318#0" expanded="true" />
-            <element signature="e#10659#10682#0" expanded="true" />
-            <element signature="e#10780#10803#0" expanded="true" />
-            <element signature="e#11144#11167#0" expanded="true" />
-            <element signature="e#11265#11288#0" expanded="true" />
-            <element signature="e#11629#11652#0" expanded="true" />
-            <element signature="e#11750#11773#0" expanded="true" />
-            <element signature="e#12114#12137#0" expanded="true" />
-            <element signature="e#12235#12258#0" expanded="true" />
-            <element signature="e#12853#12876#0" expanded="true" />
-            <element signature="e#12974#12997#0" expanded="true" />
-            <element signature="e#13338#13361#0" expanded="true" />
-            <element signature="e#13459#13482#0" expanded="true" />
-            <element signature="e#13823#13846#0" expanded="true" />
-            <element signature="e#13944#13967#0" expanded="true" />
-            <element signature="e#14308#14331#0" expanded="true" />
-            <element signature="e#14429#14452#0" expanded="true" />
-            <element signature="e#14799#14822#0" expanded="true" />
-            <element signature="e#14920#14943#0" expanded="true" />
-            <element signature="e#15518#15541#0" expanded="true" />
-            <element signature="e#15639#15662#0" expanded="true" />
-            <element signature="e#16003#16026#0" expanded="true" />
-            <element signature="e#16124#16147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1100#1119#0" expanded="true" />
-            <element signature="e#1149#1171#0" expanded="true" />
-            <element signature="e#1832#1857#0" expanded="true" />
-            <element signature="e#1942#1965#0" expanded="true" />
-            <element signature="e#1992#2018#0" expanded="true" />
-            <element signature="e#2056#2079#0" expanded="true" />
-            <element signature="e#2410#2435#0" expanded="true" />
-            <element signature="e#2520#2543#0" expanded="true" />
-            <element signature="e#2570#2596#0" expanded="true" />
-            <element signature="e#2634#2657#0" expanded="true" />
-            <element signature="e#2986#3011#0" expanded="true" />
-            <element signature="e#3096#3119#0" expanded="true" />
-            <element signature="e#3146#3172#0" expanded="true" />
-            <element signature="e#3210#3233#0" expanded="true" />
-            <element signature="e#3573#3598#0" expanded="true" />
-            <element signature="e#3683#3706#0" expanded="true" />
-            <element signature="e#3733#3759#0" expanded="true" />
-            <element signature="e#3797#3820#0" expanded="true" />
-            <element signature="e#4149#4174#0" expanded="true" />
-            <element signature="e#4259#4282#0" expanded="true" />
-            <element signature="e#4309#4335#0" expanded="true" />
-            <element signature="e#4373#4396#0" expanded="true" />
-            <element signature="e#4733#4758#0" expanded="true" />
-            <element signature="e#4843#4866#0" expanded="true" />
-            <element signature="e#4893#4919#0" expanded="true" />
-            <element signature="e#4957#4980#0" expanded="true" />
-            <element signature="e#5317#5342#0" expanded="true" />
-            <element signature="e#5427#5450#0" expanded="true" />
-            <element signature="e#5477#5503#0" expanded="true" />
-            <element signature="e#5541#5564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#874#894#0" expanded="true" />
-            <element signature="e#935#955#0" expanded="true" />
-            <element signature="e#1101#1120#0" expanded="true" />
-            <element signature="e#1150#1172#0" expanded="true" />
-            <element signature="e#1665#1683#0" expanded="true" />
-            <element signature="e#1713#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/InformacionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2496,14 +2273,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#838#858#0" expanded="true" />
+            <element signature="e#899#919#0" expanded="true" />
+            <element signature="e#1065#1092#0" expanded="true" />
+            <element signature="e#1212#1234#0" expanded="true" />
+            <element signature="e#1379#1406#0" expanded="true" />
+            <element signature="e#1527#1552#0" expanded="true" />
+            <element signature="e#1585#1607#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java">
@@ -2535,14 +2320,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java">
@@ -2561,21 +2346,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#867#887#0" expanded="true" />
+            <element signature="e#928#948#0" expanded="true" />
             <element signature="e#1093#1112#0" expanded="true" />
             <element signature="e#1142#1164#0" expanded="true" />
             <element signature="e#2124#2147#0" expanded="true" />
@@ -2635,79 +2425,48 @@
           </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1100#1119#0" expanded="true" />
-            <element signature="e#1149#1171#0" expanded="true" />
-            <element signature="e#1832#1857#0" expanded="true" />
-            <element signature="e#1942#1965#0" expanded="true" />
-            <element signature="e#1992#2018#0" expanded="true" />
-            <element signature="e#2056#2079#0" expanded="true" />
-            <element signature="e#2410#2435#0" expanded="true" />
-            <element signature="e#2520#2543#0" expanded="true" />
-            <element signature="e#2570#2596#0" expanded="true" />
-            <element signature="e#2634#2657#0" expanded="true" />
-            <element signature="e#2986#3011#0" expanded="true" />
-            <element signature="e#3096#3119#0" expanded="true" />
-            <element signature="e#3146#3172#0" expanded="true" />
-            <element signature="e#3210#3233#0" expanded="true" />
-            <element signature="e#3573#3598#0" expanded="true" />
-            <element signature="e#3683#3706#0" expanded="true" />
-            <element signature="e#3733#3759#0" expanded="true" />
-            <element signature="e#3797#3820#0" expanded="true" />
-            <element signature="e#4149#4174#0" expanded="true" />
-            <element signature="e#4259#4282#0" expanded="true" />
-            <element signature="e#4309#4335#0" expanded="true" />
-            <element signature="e#4373#4396#0" expanded="true" />
-            <element signature="e#4733#4758#0" expanded="true" />
-            <element signature="e#4843#4866#0" expanded="true" />
-            <element signature="e#4893#4919#0" expanded="true" />
-            <element signature="e#4957#4980#0" expanded="true" />
-            <element signature="e#5317#5342#0" expanded="true" />
-            <element signature="e#5427#5450#0" expanded="true" />
-            <element signature="e#5477#5503#0" expanded="true" />
-            <element signature="e#5541#5564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#874#894#0" expanded="true" />
-            <element signature="e#935#955#0" expanded="true" />
-            <element signature="e#1101#1120#0" expanded="true" />
-            <element signature="e#1150#1172#0" expanded="true" />
-            <element signature="e#1665#1683#0" expanded="true" />
-            <element signature="e#1713#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1713#1738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#838#858#0" expanded="true" />
+            <element signature="e#899#919#0" expanded="true" />
+            <element signature="e#1065#1092#0" expanded="true" />
+            <element signature="e#1212#1234#0" expanded="true" />
+            <element signature="e#1379#1406#0" expanded="true" />
+            <element signature="e#1527#1552#0" expanded="true" />
+            <element signature="e#1585#1607#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/InformacionActivity.java">
@@ -2721,14 +2480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2788,6 +2539,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3773584">
           <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
@@ -2853,11 +2607,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.226415">
           <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
@@ -2872,9 +2626,6 @@
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -2885,21 +2636,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6688">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86725664">
           <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2907,164 +2657,205 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3539823">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v23/values-v23.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.721519">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06637168">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_numeros.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#841#861#0" expanded="true" />
+            <element signature="e#902#922#0" expanded="true" />
+            <element signature="e#1067#1086#0" expanded="true" />
+            <element signature="e#1116#1138#0" expanded="true" />
+            <element signature="e#1952#1974#0" expanded="false" />
+            <element signature="e#2125#2153#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6238938">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronun.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="87" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#883#903#0" expanded="true" />
+            <element signature="e#944#964#0" expanded="true" />
+            <element signature="e#1109#1129#0" expanded="true" />
+            <element signature="e#1159#1181#0" expanded="true" />
+            <element signature="e#1919#1947#0" expanded="true" />
+            <element signature="e#1981#2007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatPronunActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.384">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatNumerosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.088495575">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_numeros.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8301888">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronun.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.166667">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.411765">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronom.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cat_pronom.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CatPronomActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="44" />
+        <state vertical-scroll-proportion="1.3086735">
+          <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.408">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <element signature="e#874#894#0" expanded="true" />
-            <element signature="e#935#955#0" expanded="true" />
-            <element signature="e#1100#1119#0" expanded="true" />
-            <element signature="e#1149#1171#0" expanded="true" />
-            <element signature="e#1832#1857#0" expanded="true" />
-            <element signature="e#1942#1965#0" expanded="true" />
-            <element signature="e#1992#2018#0" expanded="true" />
-            <element signature="e#2056#2079#0" expanded="true" />
-            <element signature="e#2410#2435#0" expanded="true" />
-            <element signature="e#2520#2543#0" expanded="true" />
-            <element signature="e#2570#2596#0" expanded="true" />
-            <element signature="e#2634#2657#0" expanded="true" />
-            <element signature="e#2986#3011#0" expanded="true" />
-            <element signature="e#3096#3119#0" expanded="true" />
-            <element signature="e#3146#3172#0" expanded="true" />
-            <element signature="e#3210#3233#0" expanded="true" />
-            <element signature="e#3573#3598#0" expanded="true" />
-            <element signature="e#3683#3706#0" expanded="true" />
-            <element signature="e#3733#3759#0" expanded="true" />
-            <element signature="e#3797#3820#0" expanded="true" />
-            <element signature="e#4149#4174#0" expanded="true" />
-            <element signature="e#4259#4282#0" expanded="true" />
-            <element signature="e#4309#4335#0" expanded="true" />
-            <element signature="e#4373#4396#0" expanded="true" />
-            <element signature="e#4733#4758#0" expanded="true" />
-            <element signature="e#4843#4866#0" expanded="true" />
-            <element signature="e#4893#4919#0" expanded="true" />
-            <element signature="e#4957#4980#0" expanded="true" />
-            <element signature="e#5317#5342#0" expanded="true" />
-            <element signature="e#5427#5450#0" expanded="true" />
-            <element signature="e#5477#5503#0" expanded="true" />
-            <element signature="e#5541#5564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.7647057">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.875">
-          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-          <folding>
-            <element signature="e#1713#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2641509">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#700#720#0" expanded="true" />
-            <element signature="e#761#781#0" expanded="true" />
-            <element signature="e#926#945#0" expanded="true" />
-            <element signature="e#975#997#0" expanded="true" />
-            <element signature="e#1771#1790#0" expanded="true" />
-            <element signature="e#1922#1950#0" expanded="true" />
-            <element signature="e#2111#2130#0" expanded="true" />
-            <element signature="e#2262#2290#0" expanded="true" />
-            <element signature="e#2451#2470#0" expanded="true" />
-            <element signature="e#2602#2630#0" expanded="true" />
-            <element signature="e#2791#2810#0" expanded="true" />
-            <element signature="e#2942#2970#0" expanded="true" />
-            <element signature="e#3131#3150#0" expanded="true" />
-            <element signature="e#3282#3310#0" expanded="true" />
-            <element signature="e#3471#3490#0" expanded="true" />
-            <element signature="e#3622#3650#0" expanded="true" />
-            <element signature="e#3811#3830#0" expanded="true" />
-            <element signature="e#3962#3990#0" expanded="true" />
-            <element signature="e#4151#4170#0" expanded="true" />
-            <element signature="e#4302#4330#0" expanded="true" />
-            <element signature="e#4491#4510#0" expanded="true" />
-            <element signature="e#4642#4670#0" expanded="true" />
-            <element signature="e#4831#4851#0" expanded="true" />
-            <element signature="e#4984#5012#0" expanded="true" />
-            <element signature="e#5174#5194#0" expanded="true" />
-            <element signature="e#5327#5355#0" expanded="true" />
-            <element signature="e#5516#5536#0" expanded="true" />
-            <element signature="e#5669#5697#0" expanded="true" />
-            <element signature="e#5858#5878#0" expanded="true" />
-            <element signature="e#6011#6039#0" expanded="true" />
-            <element signature="e#6200#6220#0" expanded="true" />
-            <element signature="e#6353#6381#0" expanded="true" />
-            <element signature="e#6542#6562#0" expanded="true" />
-            <element signature="e#6695#6723#0" expanded="true" />
-            <element signature="e#6884#6904#0" expanded="true" />
-            <element signature="e#7037#7065#0" expanded="true" />
-            <element signature="e#7226#7246#0" expanded="true" />
-            <element signature="e#7379#7407#0" expanded="true" />
-            <element signature="e#7568#7589#0" expanded="true" />
-            <element signature="e#7723#7751#0" expanded="true" />
-            <element signature="e#7912#7933#0" expanded="true" />
-            <element signature="e#8067#8095#0" expanded="true" />
-            <element signature="e#8256#8277#0" expanded="true" />
-            <element signature="e#8411#8439#0" expanded="true" />
-            <element signature="e#8600#8622#0" expanded="true" />
-            <element signature="e#8757#8785#0" expanded="true" />
-            <element signature="e#8946#8968#0" expanded="true" />
-            <element signature="e#9103#9131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.375">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="e#699#719#0" expanded="true" />
-            <element signature="e#760#780#0" expanded="true" />
-            <element signature="e#975#997#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

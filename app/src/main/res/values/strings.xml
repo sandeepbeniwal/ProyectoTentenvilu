@@ -10,32 +10,72 @@
     <string name="TituloCat">Categorias</string>
     <string name="TituloInf">Información</string>
 
-    <string name="TextoInf">Programado y No-Diseñado por [ Germán Riveros Sepúlveda ], E-mail
-        [ german.riveross@gmail.com ], Github [ https://github.com/profGerman/ProyectoTentenvilu ] ,
-        Blog [ http://aprehendemapudungun.blogspot.cl ]
+    <!--
+    InformacionActivity -->
+
+    <string name="TextoInf"><b>Desarrollada por:</b> \nGermán Riveros Sepúlveda <b>\nE-mail:</b>
+        \ngerman.riveross@gmail.com <b>\nGithub:</b> \nhttps://github.com/profGerman/ProyectoTentenvilu
+        <b>\nBlog:</b> \nhttp://aprehendemapudungun.blogspot.cl
     </string>
+
+    <!--
+    CatNumerosActivity -->
+
     <string name="TitCatNum">Números</string>
-    <string name="Numeros_1">Kiñe: uno</string>
-    <string name="Numeros_2">Epu:  dos</string>
-    <string name="Numeros_3">Küla: tres</string>
-    <string name="Numeros_4">Meli: cuatro</string>
-    <string name="Numeros_5">Kechu: cinco</string>
-    <string name="Numeros_6">Kayu: seis</string>
-    <string name="Numeros_7">Regle: siete</string>
-    <string name="Numeros_8">Pura: ocho</string>
-    <string name="Numeros_9">Aylla: nueve</string>
-    <string name="Numeros_10">Mari: diez</string>
-    <string name="Numeros_11">Mari kiñe: once</string>
-    <string name="Numeros_12">Mari epu: doce</string>
-    <string name="Numeros_20">Epu mari: veinte</string>
-    <string name="Numeros_21">Epu mari kiñe: veintiuno</string>
-    <string name="Numeros_25">Epu mari kechu: veinticinco</string>
-    <string name="Numeros_40">Meli mari: cuarenta</string>
-    <string name="Numeros_70">Regle mari: setenta</string>
-    <string name="Numeros_100">Pataka: cien</string>
-    <string name="Numeros_120">Kiñe pataka epu mari: ciento veinte</string>
-    <string name="Numeros_850">Pura pataka kechu mari: ochocientos cincuenta</string>
-    <string name="Numeros_1000">Waranga: mil</string>
-    <string name="Numeros_2000">Epu waranga: dos mil</string>
+
+    <string name="TextoNumeros"> <b>Kiñe: </b> uno [ 1 ]\n<b> Epu:  </b> dos [ 2 ]\n<b> Küla: </b>
+        tres [ 3 ]\n<b> Meli: </b> cuatro [ 4 ] \n<b> Kechu: </b> cinco [ 5 ]\n<b> Kayu: </b>
+        seis [ 6 ]\n<b> Regle: </b> siete [ 7 ]\n<b> Pura: </b> ocho [ 8 ]\n<b> Aylla: </b> nueve [ 9 ]
+        \n<b> Mari: </b> diez [ 10 ] \n<b> Mari kiñe: </b> once [ 11 ] \n<b> Mari epu: </b> doce [ 12 ]
+        \n<b> Epu mari: </b> veinte [ 20 ]\n<b> Epu mari kiñe: </b> veintiuno [ 21 ]
+        \n<b> Epu mari kechu: </b> veinticinco [ 25 ]\n<b> Meli mari: </b> cuarenta [ 40 ]
+        \n<b> Regle mari: </b> setenta [ 70 ] \n<b> Pataka: </b> cien [ 100 ]
+        \n<b> Kiñe pataka epu mari: </b> ciento veinte [ 120 ]
+        \n<b> Pura pataka kechu mari: </b> ochocientos cincuenta [ 850 ]
+        \n<b> Waranga: </b> mil [ 1000 ]\n<b> Epu waranga: </b> dos mil [ 2000 ]
+    </string>
+
+
+    <!--
+        CatNumerosActivity -->
     <string name="TitCatPron">Pronunciación</string>
+    <string name="TextoPronunciacion"><b>A:</b> como la <b> a</b> española.\n<b>Ch:</b> como la <b>
+        ch  </b> española.\n<b>D: </b> como la <b> z  </b> española, ausente en el castellano de
+        Chile. En algunas zonas se realiza como la <b> d </b> del español, pero con la punta de la
+        lengua entre los dientes.\n<b>E:</b> como la <b> e </b> española \n<b>F:</b> como la <b> f
+        </b> española. En algunas zonas se realiza como una <b> y </b>, es decir, labiodental.
+        \n<b>G:</b> como la <b> g </b> española que se encuentra entre vocales, menos marcada.
+        \n<b>I:</b> como la <b> i </b> española. Cuando el sonido \"i\" finaliza un diptongo, se
+        utiliza el \"y\". Ejemplo: felei, y no felei. \n<b>K:</b> como la <b> c </b> española, antes
+        de <i>a, o, u,</i> o como la <b> q </b> antes de <i>e, i</i>. \n<b>L:</b> como la <b> l </b>
+        española. \n<b>Ll:</b> como la <b> ll </b> del español de Castilla. En algunas zonas rurales
+        del sur de Chile se conserva y se distingue de la <b> y</b>.\n<b>M:</b> como la <b> m </b>
+        española. \n<b>N:</b> como la <b> n </b> española. \n<b>Ñ:</b> como la <b> ñ </b> española.
+        \n<b>Ng:</b> corresponde a un solo sonido que se articula con la lengua en el velo del
+        paladar (un poco más atrás que la <i>ñ</i>). No equivale a <b>n + g</b> españolas.\n<b>O:</b>
+        como la <b> o </b> española. \n<b>P:</b> como la <b> p </b> española.\n<b>R:</b> como una
+        <b> r </b> simple, pero con la punta de la lengua doblada hacia atrás. Muy parecida a la
+        <b> r </b> del inglés. Nunca será como la doble <b>r </b> del español.\n<b>S:</b> muy
+        parecida a la del español, aunque con mayor tensión y articulada con la punta de los dientes
+        contra los alvéolos. \n<b>T:</b> muy parecida a la del español, aunque un poco más atrás
+        (alvéolos en lugar de dientes). \n<b>Tr:</b> corresponde a un sonido que se articula como el
+        grupo <b>tr</b> en el español coloquial de Chile. No equivale a <b>t + r</b> españolas.
+        \n<b>U:</b> como la <b> u </b> española. Cuando el sonido \"u\" finaliza un diptongo, se
+        utiliza el \"w\". Ejemplo: <i>fewla y no feula</i>. \n<b>Ü:</b> como la <b> u </b> española,
+        pero con los labios estirados como cuando se articula una <i>i</i>. \n<b>W:</b> como la
+        <b> w </b> del inglés. Semejante a la pronunciación de los diptongos que comienzan con
+        <b>u </b> del español. Después de una vocal acentuada se pronuncia como <b> i</b>.
+        \n<b>Y:</b> cuando antecede a una vocal suena como la <b> y </b> española, aunque más suave.
+         Despues de vocal acentuada se pronuncia como la <b> u</b> española.\n<b>Sh:</b> en algunas
+        ocaciones aparece una letra <b>sh</b> supernumeraria que se utiliza para marcar el tono
+        afectivo o cariñoso. Suena como una <b> ch</b> más fricativa(arrastrada).\n
+    </string>
+
+
+    <!-- Puede servir
+    <string-array name="nombreArray">
+        <item>elemento 1</item>
+        <item>elemento 2</item>
+    </string-array>
+    -->
 </resources>

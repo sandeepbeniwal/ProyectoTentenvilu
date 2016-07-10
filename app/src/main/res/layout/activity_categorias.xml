@@ -60,8 +60,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Animales"
-            android:id="@+id/btn_animales"
+            android:text="Pronombres"
+            android:id="@+id/btn_pronombres"
             android:background="@color/FondoBoton"
             android:height="@dimen/Tam_alt_btns_cat"
             android:textColor="@color/ColorTextoBoton"

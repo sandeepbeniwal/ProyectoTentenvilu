@@ -8,6 +8,7 @@
 
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +17,7 @@ import android.widget.Button;
 public class CategoriasActivity extends AppCompatActivity
 {
 
-    private Button btn_pronunciacion, btn_actividades,btn_animales,
+    private Button btn_pronunciacion, btn_actividades,btn_pronombres,
             btn_numeros, btn_saludos, btn_colores, btn_cosas;
 
     @Override
@@ -28,7 +29,7 @@ public class CategoriasActivity extends AppCompatActivity
 
         btn_pronunciacion   = (Button) findViewById(R.id.btn_pronunciacion);
         btn_actividades     = (Button) findViewById(R.id.btn_actividades);
-        btn_animales        = (Button) findViewById(R.id.btn_animales);
+        btn_pronombres        = (Button) findViewById(R.id.btn_pronombres);
         btn_numeros         = (Button) findViewById(R.id.btn_numeros);
         btn_saludos         = (Button) findViewById(R.id.btn_saludos);
         btn_colores         = (Button) findViewById(R.id.btn_colores);
@@ -43,12 +44,18 @@ public class CategoriasActivity extends AppCompatActivity
         switch (view.getId())
         {
             case R.id.btn_numeros:
-                setContentView(R.layout.layout_numeros);
+                startActivity(new Intent(CategoriasActivity.this, CatNumerosActivity.class));
                 break;
 
+            case R.id.btn_pronunciacion:
+                startActivity(new Intent(CategoriasActivity.this, CatPronunActivity.class));
+                break;
+
+            case R.id.btn_pronombres:
+                startActivity(new Intent(CategoriasActivity.this, CatPronomActivity.class));
+                break;
         }
     }
-
 
 
 }
