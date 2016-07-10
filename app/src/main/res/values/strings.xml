@@ -12,17 +12,14 @@
 
     <!--
     InformacionActivity -->
-
     <string name="TextoInf"><b>Desarrollada por:</b> \nGermán Riveros Sepúlveda <b>\nE-mail:</b>
         \ngerman.riveross@gmail.com <b>\nGithub:</b> \nhttps://github.com/profGerman/ProyectoTentenvilu
         <b>\nBlog:</b> \nhttp://aprehendemapudungun.blogspot.cl
     </string>
 
     <!--
-    CatNumerosActivity -->
-
+    Categoria Números -->
     <string name="TitCatNum">Números</string>
-
     <string name="TextoNumeros"> <b>Kiñe: </b> uno [ 1 ]\n<b> Epu:  </b> dos [ 2 ]\n<b> Küla: </b>
         tres [ 3 ]\n<b> Meli: </b> cuatro [ 4 ] \n<b> Kechu: </b> cinco [ 5 ]\n<b> Kayu: </b>
         seis [ 6 ]\n<b> Regle: </b> siete [ 7 ]\n<b> Pura: </b> ocho [ 8 ]\n<b> Aylla: </b> nueve [ 9 ]
@@ -35,9 +32,8 @@
         \n<b> Waranga: </b> mil [ 1000 ]\n<b> Epu waranga: </b> dos mil [ 2000 ]
     </string>
 
-
     <!--
-        CatNumerosActivity -->
+        Categoria Pronunciación -->
     <string name="TitCatPron">Pronunciación</string>
     <string name="TextoPronunciacion"><b>A:</b> como la <b> a</b> española.\n<b>Ch:</b> como la <b>
         ch  </b> española.\n<b>D: </b> como la <b> z  </b> española, ausente en el castellano de
@@ -71,6 +67,11 @@
         afectivo o cariñoso. Suena como una <b> ch</b> más fricativa(arrastrada).\n
     </string>
 
+
+    <!--
+    Categoria Pronombres -->
+    <string name="TitCatPronombre">Pronombres</string>
+    <string name="TextoPronombres">texto pronombres</string>
 
     <!-- Puede servir
     <string-array name="nombreArray">

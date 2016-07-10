@@ -20,6 +20,8 @@ public class CategoriasActivity extends AppCompatActivity
     private Button btn_pronunciacion, btn_actividades,btn_pronombres,
             btn_numeros, btn_saludos, btn_colores, btn_cosas;
 
+    private Intent intent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -29,7 +31,7 @@ public class CategoriasActivity extends AppCompatActivity
 
         btn_pronunciacion   = (Button) findViewById(R.id.btn_pronunciacion);
         btn_actividades     = (Button) findViewById(R.id.btn_actividades);
-        btn_pronombres        = (Button) findViewById(R.id.btn_pronombres);
+        btn_pronombres      = (Button) findViewById(R.id.btn_pronombres);
         btn_numeros         = (Button) findViewById(R.id.btn_numeros);
         btn_saludos         = (Button) findViewById(R.id.btn_saludos);
         btn_colores         = (Button) findViewById(R.id.btn_colores);
@@ -43,19 +45,25 @@ public class CategoriasActivity extends AppCompatActivity
 
         switch (view.getId())
         {
-            case R.id.btn_numeros:
-                startActivity(new Intent(CategoriasActivity.this, CatNumerosActivity.class));
-                break;
 
             case R.id.btn_pronunciacion:
-                startActivity(new Intent(CategoriasActivity.this, CatPronunActivity.class));
-                break;
+                traspasarTexto(btn_pronunciacion.getText().toString()); break;
+
+            case R.id.btn_numeros:
+                traspasarTexto(btn_numeros.getText().toString()); break;
 
             case R.id.btn_pronombres:
-                startActivity(new Intent(CategoriasActivity.this, CatPronomActivity.class));
-                break;
+                traspasarTexto(btn_pronombres.getText().toString()); break;
+
         }
     }
 
 
-}
+    protected void traspasarTexto(String textoBtn)
+    {
+        intent = new Intent(CategoriasActivity.this, SubCategoriasActivity.class);
+        intent.putExtra("categoria", textoBtn);
+        startActivity(intent);
+    }
+
+}//.

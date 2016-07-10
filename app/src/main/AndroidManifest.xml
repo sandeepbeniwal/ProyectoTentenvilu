@@ -19,9 +19,7 @@
         <activity android:name=".CategoriasActivity" />
         <activity android:name=".InformacionActivity" />
         <activity android:name=".PalabrasActivity" />
-        <activity android:name=".CatNumerosActivity" />
-        <activity android:name=".CatPronunActivity" />
-        <activity android:name=".CatPronomActivity"></activity>
+        <activity android:name=".SubCategoriasActivity"></activity>
     </application>
 
 </manifest>
