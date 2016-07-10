@@ -71,41 +71,48 @@
     <!--
     Categoria Pronombres -->
     <string name="TitCatPronombre">Pronombres</string>
-    <string name="TextoPronombres"><b>PERSONALES</b>
-        \n\t<i>Simples:</i>
-        \n\t\t<b>Inche:</b> yo
-        \n\t\t<b>Eymi:</b> tu
-        \n\t\t<b>Fey:</b> el
-        \n\t<i>Duales:</i>
-        \n\t\t<b>Inchiw:</b> nosotros dos
-        \n\t\t<b>Eymu:</b> ustedes dos
-        \n\t\t<b>Feyengu:</b> ellos dos
-        \n\t<i>Plurales:</i>
-        \n\t\t<b>Inchiñ:</b> nosotros (todos)
-        \n\t\t<b>Eymün:</b> ustedes (todos)
-        \n\t\t<b>Feyengün:</b> ellos (todos)
-        \n\n<b>POSESIVOS</b>
-        \n\t<i>Simples:</i>
-        \n\t\t<b>Tañi:</b> mi (yo)
-        \n\t\t<b>Tami:</b> tu (tu)
-        \n\t\t<b>Tañi:</b> su (el)
-        \n\t<i>Duales:</i>
-        \n\t\t<b>Tayu:</b> nuestro (nosotros dos)
-        \n\t\t<b>Tamu:</b> vuestro (ustedes dos)
-        \n\t\t<b>Tañi:</b> su (ellos dos)
-        \n\t<i>Plurales:</i>
-        \n\t\t<b>Taiñ:</b> nuestro (nosotros)
-        \n\t\t<b>Tamün:</b> vuestro (ustedes)
-        \n\t\t<b>Tañi:</b> su (ellos)
-        \n\n<b>DEMOSTRATIVOS</b>
-        \n\t<b>Tüfa/ Tüfachi:</b> este, esta, esto
-        \n\t<b>Ta tüfa:</b> este es, esta es, esto es
-        \n\t<b>Tüfey/ tüfeychi/ feychi/ feytachi:</b> ese, esa, eso
-        \n\t<b>Ta tüfey:</b> ese es, esa es, eso es
-        \n\t<b>Fey:</b> este, esta, esto, ese, esa, eso
-        \n\t<b>Tiyechi:</b> aquel, aquella, aquello \n
-
+    <string name="TextoPronombres"><b>PERSONALES</b>\n\t<i>Simples:</i> \n\t\t<b>Inche:</b> yo
+        \n\t\t<b>Eymi:</b> tu \n\t\t<b>Fey:</b> el \n\t<i>Duales:</i>\n\t\t<b>Inchiw:</b> nosotros dos
+        \n\t\t<b>Eymu:</b> ustedes dos \n\t\t<b>Feyengu:</b> ellos dos \n\t<i>Plurales:</i>
+        \n\t\t<b>Inchiñ:</b> nosotros (todos) \n\t\t<b>Eymün:</b> ustedes (todos)
+        \n\t\t<b>Feyengün:</b> ellos (todos) \n\n<b>POSESIVOS</b>\n\t<i>Simples:</i>
+        \n\t\t<b>Tañi:</b> mi (yo) \n\t\t<b>Tami:</b> tu (tu) \n\t\t<b>Tañi:</b> su (el)
+        \n\t<i>Duales:</i>\n\t\t<b>Tayu:</b> nuestro (nosotros dos)\n\t\t<b>Tamu:</b> vuestro (ustedes
+        dos)\n\t\t<b>Tañi:</b> su (ellos dos) \n\t<i>Plurales:</i>\n\t\t<b>Taiñ:</b> nuestro (nosotros)
+        \n\t\t<b>Tamün:</b> vuestro (ustedes)\n\t\t<b>Tañi:</b> su (ellos)\n\n<b>DEMOSTRATIVOS</b>
+        \n\t<b>Tüfa/ Tüfachi:</b> este, esta, esto\n\t<b>Ta tüfa:</b> este es, esta es, esto es
+        \n\t<b>Tüfey/ tüfeychi/ feychi/ feytachi:</b> ese, esa, eso\n\t<b>Ta tüfey:</b> ese es, esa es,
+        eso es\n\t<b>Fey:</b> este, esta, esto, ese, esa, eso\n\t<b>Tiyechi:</b> aquel, aquella, aquello \n
     </string>
+
+
+    <!--
+    Saludo y despedida -->
+    <string name="TitCatSaludoDespedida">Saludo y despedida</string>
+    <string name="TextoSaludoDespedida"><b>CHALIWÜN (Saludar)</b>
+        \n\n<i>Básico:</i>
+        \n<b>Mari Mari (peñi/lamngen):</b> Buenos días hermano(a)
+        \n<b>Pun May (peñi/lamngen):</b> Buenas noches hermano(a)
+        \n<b>Fücha kuifi:</b> tanto tiempo (sin vernos)
+        \n\n<i>Posibles preguntas:</i>
+        \n<b>¿Kümelküleymi?/ ¿Kümeleymi?/ ¿Kümelekaymi?:</b> ¿estas bien?
+        \n<b>¿Chumleymi?:</b> ¿cómo estas?
+        \n<b>¿Tremoleymi?:</b> ¿estas bien de salud?
+        \n\n<i>Posibles respuestas:</i>
+        \n<b>Kümelkülen/ Kümelen / Kümelkan:</b> estoy bien
+        \n<b>May:</b> si
+        \n<b>Tremolen:</b> estoy bien de salud
+        \n<b>Wedalkülen:</b> estoy mal
+        \n<b>Kütrankülen:</b> estoy enfermo
+        \n\n<b>PEWKAYALL (Despedirse)</b>\n
+        \n<b>Pewkayall:</b> hasta pronto (nos veremos)
+        \n<b>Pewkayall may:</b> si, hasta pronto
+        \n<b>Lemorria tami pu che:</b> dale saludos a tu familia
+        \n<b>Küme putuaymi tami ruca mew:</b> que llegues bien a tu casa
+        \n<b>Eymi kafey:</b> tu también
+        \n<b>Mañumkülen:</b> te agradezco \n
+    </string>
+
 
     <!-- Puede servir
     <string-array name="nombreArray">

@@ -55,6 +55,8 @@ public class CategoriasActivity extends AppCompatActivity
             case R.id.btn_pronombres:
                 traspasarTexto(btn_pronombres.getText().toString()); break;
 
+            case R.id.btn_saludos:
+                traspasarTexto(btn_saludos.getText().toString()); break;
         }
     }
 

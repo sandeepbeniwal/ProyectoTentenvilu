@@ -48,6 +48,12 @@ public class SubCategoriasActivity extends AppCompatActivity {
             tv_TextoSubCat.setText(getText(R.string.TextoPronombres));
         }
 
+        if(recibeTextoBtn.equals("Saludo y despedida"))
+        {
+            tv_TituloSubCat.setText(getText(R.string.TitCatSaludoDespedida));
+            tv_TextoSubCat.setText(getText(R.string.TextoSaludoDespedida));
+        }
+
     }
 
-}
+}//.
