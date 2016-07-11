@@ -99,8 +99,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Colores"
-            android:id="@+id/btn_colores"
+            android:text="Conectores gram."
+            android:id="@+id/btn_conectores"
             android:background="@color/FondoBoton"
             android:height="@dimen/Tam_alt_btns_cat"
             android:textColor="@color/ColorTextoBoton"
@@ -112,8 +112,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Actividades"
-            android:id="@+id/btn_actividades"
+            android:text="Interrogativos"
+            android:id="@+id/btn_interrogativos"
             android:background="@color/FondoBoton"
             android:height="@dimen/Tam_alt_btns_cat"
             android:textColor="@color/ColorTextoBoton"
@@ -125,8 +125,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cosas del entorno"
-            android:id="@+id/btn_cosas"
+            android:text="Calendario"
+            android:id="@+id/btn_calendario"
             android:background="@color/FondoBoton"
             android:height="@dimen/Tam_alt_btns_cat"
             android:textColor="@color/ColorTextoBoton"

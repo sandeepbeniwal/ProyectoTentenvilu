@@ -53,6 +53,23 @@ public class SubCategoriasActivity extends AppCompatActivity {
             tv_TituloSubCat.setText(getText(R.string.TitCatSaludoDespedida));
             tv_TextoSubCat.setText(getText(R.string.TextoSaludoDespedida));
         }
+        if(recibeTextoBtn.equals("Conectores gram."))
+        {
+            tv_TituloSubCat.setText(getText(R.string.TitCatConectores));
+            tv_TextoSubCat.setText(getText(R.string.TextoConectores));
+        }
+
+        if(recibeTextoBtn.equals("Interrogativos"))
+        {
+            tv_TituloSubCat.setText(getText(R.string.TitCatInterrogativos));
+            tv_TextoSubCat.setText(getText(R.string.TextoInterrogativos));
+        }
+
+        if(recibeTextoBtn.equals("Calendario"))
+        {
+            tv_TituloSubCat.setText(getText(R.string.TitCatCalendario));
+            tv_TextoSubCat.setText(getText(R.string.TextoCalendario));
+        }
 
     }
 

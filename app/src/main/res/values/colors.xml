@@ -3,7 +3,7 @@
     <color name="colorPrimary">#E0E0E0</color>
     <color name="colorPrimaryDark">#BDBDBD</color>
     <color name="colorAccent">#212121</color>
-    <color name="LinearLayoutA">#eeeeee</color>
+    <color name="LinearLayoutA">#fafafa</color>
     <color name="LinearLayoutB">#f5f5f5</color>
     <color name="FondoBoton">#424242</color>
     <color name="ColorTextoBoton">#fafafa</color>
