@@ -6,16 +6,16 @@
  *
  */
 
-
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 
 /**
- * Created by germanriveros on 07-07-16.
+ * Created by Germán Riveros S.
  */
+
 public class AdministradorBD
 {
 
@@ -105,7 +105,7 @@ public class AdministradorBD
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
     /*
-    public static final String CREATE_TABLE_LL = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_K + " ("
+    public static final String CREATE_TABLE_K = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_K + " ("
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
@@ -125,7 +125,7 @@ public class AdministradorBD
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
     /*
-    public static final String CREATE_TABLE_LL = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_Ñ + " ("
+    public static final String CREATE_TABLE_Ñ = "CREATE TABLE IF NOT EXISTS " + TABLE_LETRA_Ñ + " ("
             + CN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + CN_ESP + " TEXT NOT NULL,"
             + CN_MAPU + " TEXT NOT NULL);";
@@ -191,9 +191,8 @@ public class AdministradorBD
             + CN_MAPU + " TEXT NOT NULL);";
 
 
-
-    private AsistenteBD asistenteBD;
     protected SQLiteDatabase sqLiteDatabase;
+    private AsistenteBD asistenteBD;
 
 
     public AdministradorBD(Context context)
@@ -203,10 +202,8 @@ public class AdministradorBD
         sqLiteDatabase = asistenteBD.getWritableDatabase();
     }
 
-
     public Cursor cargarCursorLetras(char caracter)
     {
-
 
         String[] columnas = new String[]{CN_ID, CN_ESP,CN_MAPU};
 
@@ -270,12 +267,8 @@ public class AdministradorBD
             default:
                 return null;
 
-
         }
-
 
     }
 
-
-
-}
+}//.

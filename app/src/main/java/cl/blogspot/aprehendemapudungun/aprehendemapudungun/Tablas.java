@@ -11,15 +11,18 @@ package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 import android.content.Context;
 
 /**
- * Created by germanriveros on 07-07-16.
+ * Created by Germán Riveros S.
  */
+
 public class Tablas extends AdministradorBD
 {
-    public Tablas(Context context){
+
+    public Tablas(Context context)
+    {
+
         super(context);
+
     }
-
-
 
     public static final String INSERTAR_LETRA_A = "INSERT INTO " + TABLE_LETRA_A + " (" + CN_ESP + "," + CN_MAPU +")"
             + " VALUES "+
@@ -281,5 +284,4 @@ public class Tablas extends AdministradorBD
 
             ";";
 
-
-}
+}//.

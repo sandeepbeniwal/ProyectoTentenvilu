@@ -8,22 +8,25 @@
 
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
-import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.database.sqlite.SQLiteDatabase;
+import android.content.Context;
 
 /**
- * Created by germanriveros on 07-07-16.
+ * Created by Germán Riveros S.
  */
+
 public class AsistenteBD extends SQLiteOpenHelper
 {
 
     private static final String DB_NAME = "PROYECTO_TENTENVILU";
     private static final int DB_SCHEME_VERSION = 1;
 
+    public AsistenteBD(Context context, String name, SQLiteDatabase.CursorFactory factory, int version)
+    {
 
-    public AsistenteBD(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
+
     }
 
     public AsistenteBD(Context context)
@@ -32,7 +35,6 @@ public class AsistenteBD extends SQLiteOpenHelper
         super(context, DB_NAME, null, DB_SCHEME_VERSION);
 
     }
-
 
     @Override
     public void onCreate(SQLiteDatabase db)

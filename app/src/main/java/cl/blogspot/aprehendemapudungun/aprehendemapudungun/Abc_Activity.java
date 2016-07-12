@@ -8,12 +8,16 @@
 
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
+import android.content.Intent;
 import android.widget.Button;
 import android.widget.Toast;
+import android.os.Bundle;
+import android.view.View;
+
+/**
+ * Created by Germán Riveros S.
+ */
 
 public class Abc_Activity extends AppCompatActivity
 {
@@ -114,7 +118,6 @@ public class Abc_Activity extends AppCompatActivity
             case R.id.btn_Y: traspasarIntent(btn_Y.getText().toString()); break;
 
             case R.id.btn_Z: traspasarIntent(btn_Z.getText().toString()); break;
-
 
         }
 

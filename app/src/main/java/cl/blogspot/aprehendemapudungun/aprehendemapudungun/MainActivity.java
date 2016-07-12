@@ -8,18 +8,21 @@
 
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
+import android.widget.Button;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+/**
+ * Created by Germán Riveros S.
+ */
 
 public class MainActivity extends AppCompatActivity
 {
 
-
-    private AdministradorBD administradorBD;
     private Button btn_abc, btn_categorias, btn_informacion;
+    private AdministradorBD administradorBD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -29,9 +32,10 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         administradorBD = new AdministradorBD(this);
-        btn_abc         = (Button) findViewById(R.id.btn_abc);
-        btn_categorias  = (Button) findViewById(R.id.btn_categorias);
+
         btn_informacion = (Button) findViewById(R.id.btn_informacion);
+        btn_categorias  = (Button) findViewById(R.id.btn_categorias);
+        btn_abc         = (Button) findViewById(R.id.btn_abc);
 
     }
 
@@ -39,18 +43,17 @@ public class MainActivity extends AppCompatActivity
     {
         switch (view.getId())
         {
-            case R.id.btn_abc:
-                startActivity(new Intent(MainActivity.this, Abc_Activity.class));break;
-
-            case R.id.btn_categorias:
-                startActivity(new Intent(MainActivity.this, CategoriasActivity.class)); break;
 
             case R.id.btn_informacion:
                 startActivity(new Intent(MainActivity.this, InformacionActivity.class)); break;
 
+            case R.id.btn_categorias:
+                startActivity(new Intent(MainActivity.this, CategoriasActivity.class)); break;
+
+            case R.id.btn_abc:
+                startActivity(new Intent(MainActivity.this, Abc_Activity.class));break;
+
         }
-
-
     }
 
-}
+}//.

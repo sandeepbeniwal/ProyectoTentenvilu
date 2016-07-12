@@ -9,22 +9,26 @@
 
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
-import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.database.Cursor;
+import android.os.Bundle;
+
+/**
+ * Created by Germán Riveros S.
+ */
 
 public class PalabrasActivity extends AppCompatActivity
 {
 
-    Bundle bundle;
-    private Cursor cursor;
-    private ListView lista;
-    public TextView tv_letra;
-    private SimpleCursorAdapter adapter;
     private AdministradorBD administradorBD;
+    private SimpleCursorAdapter adapter;
+    public TextView tv_letra;
+    private ListView lista;
+    private Cursor cursor;
+    Bundle bundle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -95,11 +99,9 @@ public class PalabrasActivity extends AppCompatActivity
 
             case 'Z': mostrarPalabrasLetras('Z'); break;
 
-
         }
 
     }
-
 
     protected void mostrarPalabrasLetras(char Caracter)
     {

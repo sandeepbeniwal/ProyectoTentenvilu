@@ -9,19 +9,24 @@
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.TextView;
+import android.os.Bundle;
 
-public class SubCategoriasActivity extends AppCompatActivity {
 
+/**
+ * Created by Germán Riveros S.
+ */
+
+public class SubCategoriasActivity extends AppCompatActivity
+{
 
     private TextView tv_TituloSubCat, tv_TextoSubCat;
-
     private Bundle bundle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub_categorias);
 
