@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="cl.blogspot.aprehendemapudungun.aprehendemapudungun.InformacionActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left"
+
+        android:orientation="vertical"
+        android:background="@color/LinearLayoutA">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/sinnombre1"
+            android:layout_marginTop="@dimen/Margen_logo"
+            android:layout_marginBottom="@dimen/Margen_logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TituloInf"
+            android:textSize="@dimen/tamano_titulo"
+            android:textColor="@color/ColorLetras"
+            android:id="@+id/tv_titulo_informacion"
+            android:layout_marginRight="@dimen/Margen_Tit_inf" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left"
+
+        android:background="@color/LinearLayoutB">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextoInf"
+            android:textSize="@dimen/Tamano_texto_inf"
+            android:textColor="@color/ColorLetras"
+            android:id="@+id/tv_texto_inf" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

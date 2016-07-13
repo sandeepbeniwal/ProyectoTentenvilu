@@ -17,4 +17,7 @@
     <dimen name="Margen_logo">7dp</dimen>
     <dimen name="Tamano_texto_subcat">20sp</dimen>
     <dimen name="Tamano_texto_pron">20sp</dimen>
+    <dimen name="Margen_Tit_inf">10dp</dimen>
+    <dimen name="Margen_Tit_cat">10dp</dimen>
+    <dimen name="Margen_Tit_SubCat">10dp</dimen>
 </resources>

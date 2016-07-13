@@ -4,14 +4,22 @@
         4.0 Internacional de Creative Commons. Para ver una copia de esta licencia,
         visite http://creativecommons.org/licenses/by-nc-sa/4.0/.
     -->
-
     <string name="app_name">Aprehende Mapudungún</string>
+
     <string name="titulo">Aprehende Mapudungún</string>
-    <string name="boton_abecedario">Abecedario</string>
-    <string name="boton_categorias">Categorias</string>
-    <string name="boton_informacion">Información</string>
+    <string name="titulo_land">Aprehende \nMapudungún</string>
+
     <string name="TituloAbc">Abecedario</string>
     <string name="TituloActPalabras">Palabras con la letra:</string>
+    <string name="TituloActPalabras_land">Palabras con \nla letra:</string>
+
+    <string name="boton_abecedario">Abecedario</string>
+
+
+    <string name="boton_categorias">Categorias</string>
+    <string name="boton_informacion">Información</string>
+
+
     <string name="SubtitActPalabras">letra</string>
     <string name="TituloCat">Categorias</string>
     <string name="TituloInf">Información</string>
@@ -132,7 +140,7 @@
     <!--
                *** Saludo y despedida ***
     -->
-    <string name="TitCatSaludoDespedida">Saludo y despedida</string>
+    <string name="TitCatSaludoDespedida">Saludo y \ndespedida</string>
     <string name="TextoSaludoDespedida"><b>CHALIWÜN (Saludar)</b>
         \n\n<i>Básico:</i>
         \n<b>Mari Mari (peñi/lamngen):</b> Buenos días hermano(a)
@@ -160,7 +168,7 @@
     <!--
                *** Conectores Gramaticales ***
     -->
-    <string name="TitCatConectores">Conectores gramaticales</string>
+    <string name="TitCatConectores">Conectores \ngramaticales</string>
     <string name="TextoConectores"><b>RELACIONADOS AL TIEMPO</b>
         \n<b>Antü:</b> día, sol
         \n<b>Epuwe antü doy:</b> pasado mañana

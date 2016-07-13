@@ -3,10 +3,30 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
+        <devices>
+          <device id="Nexus 4" />
+          <device id="Nexus 7 2013" />
+          <device id="Galaxy Nexus" />
+          <device id="Nexus 10" />
+          <device id="Nexus 9" />
+          <device id="Nexus 5X" />
+        </devices>
         <target>android-23</target>
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_abc_.xml">
+        <config>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_categorias.xml">
+        <config>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -14,6 +34,7 @@
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
         <config>
+          <state>Landscape</state>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
@@ -24,6 +45,7 @@
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
+          <state>Landscape</state>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
@@ -49,17 +71,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30387b3-bcec-466b-afd1-c18a04830129" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_abc_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_categorias.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_palabras.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_sub_categorias.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_informacion.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/InformacionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/InformacionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java" afterPath="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
     </list>
     <ignored path="Aprehende Mapudungun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,69 +104,7 @@
     <favorites_list name="Aprehende Mapudungun" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PalabrasActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubCategoriasActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#234#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#1122#1150#0" expanded="true" />
-                <element signature="e#1188#1224#0" expanded="true" />
-                <element signature="e#1328#1355#0" expanded="true" />
-                <element signature="e#1393#1423#0" expanded="true" />
-                <element signature="e#1531#1564#0" expanded="true" />
-                <element signature="e#1602#1635#0" expanded="true" />
-                <element signature="e#1751#1790#0" expanded="true" />
-                <element signature="e#1828#1866#0" expanded="true" />
-                <element signature="e#1979#2013#0" expanded="true" />
-                <element signature="e#2051#2084#0" expanded="true" />
-                <element signature="e#2196#2234#0" expanded="true" />
-                <element signature="e#2272#2309#0" expanded="true" />
-                <element signature="e#2417#2451#0" expanded="true" />
-                <element signature="e#2489#2522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tablas.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4617347">
-              <caret line="286" column="4" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1743,8 +1706,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_numeros.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml" />
@@ -1755,8 +1716,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categorias.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java" />
@@ -1766,6 +1725,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_abc_.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_informacion.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_categorias.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_sub_categorias.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_palabras.xml" />
       </list>
     </option>
   </component>
@@ -1818,19 +1788,9 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aprehende Mapudungun" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1841,14 +1801,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aprehendemapudungun" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2158,17 +2110,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.51615506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.4838449" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20274636" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40509915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40509915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2180937" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2194,99 +2146,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categorias.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categorias.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categorias.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2350,60 +2209,60 @@
             <element signature="e#928#948#0" expanded="true" />
             <element signature="e#1093#1112#0" expanded="true" />
             <element signature="e#1142#1164#0" expanded="true" />
-            <element signature="e#2124#2147#0" expanded="true" />
-            <element signature="e#2245#2268#0" expanded="true" />
-            <element signature="e#2609#2632#0" expanded="true" />
-            <element signature="e#2731#2754#0" expanded="true" />
-            <element signature="e#3095#3118#0" expanded="true" />
-            <element signature="e#3217#3240#0" expanded="true" />
-            <element signature="e#3581#3604#0" expanded="true" />
-            <element signature="e#3702#3725#0" expanded="true" />
-            <element signature="e#4066#4089#0" expanded="true" />
-            <element signature="e#4187#4210#0" expanded="true" />
-            <element signature="e#4804#4827#0" expanded="true" />
-            <element signature="e#4925#4948#0" expanded="true" />
-            <element signature="e#5289#5312#0" expanded="true" />
-            <element signature="e#5410#5433#0" expanded="true" />
-            <element signature="e#5774#5797#0" expanded="true" />
-            <element signature="e#5895#5918#0" expanded="true" />
-            <element signature="e#6259#6282#0" expanded="true" />
-            <element signature="e#6380#6403#0" expanded="true" />
-            <element signature="e#6744#6767#0" expanded="true" />
-            <element signature="e#6865#6888#0" expanded="true" />
-            <element signature="e#7483#7506#0" expanded="true" />
-            <element signature="e#7604#7627#0" expanded="true" />
-            <element signature="e#7974#7997#0" expanded="true" />
-            <element signature="e#8095#8118#0" expanded="true" />
-            <element signature="e#8459#8482#0" expanded="true" />
-            <element signature="e#8580#8603#0" expanded="true" />
-            <element signature="e#8944#8967#0" expanded="true" />
-            <element signature="e#9065#9088#0" expanded="true" />
-            <element signature="e#9429#9452#0" expanded="true" />
-            <element signature="e#9550#9573#0" expanded="true" />
-            <element signature="e#10174#10197#0" expanded="true" />
-            <element signature="e#10295#10318#0" expanded="true" />
-            <element signature="e#10659#10682#0" expanded="true" />
-            <element signature="e#10780#10803#0" expanded="true" />
-            <element signature="e#11144#11167#0" expanded="true" />
-            <element signature="e#11265#11288#0" expanded="true" />
-            <element signature="e#11629#11652#0" expanded="true" />
-            <element signature="e#11750#11773#0" expanded="true" />
-            <element signature="e#12114#12137#0" expanded="true" />
-            <element signature="e#12235#12258#0" expanded="true" />
-            <element signature="e#12853#12876#0" expanded="true" />
-            <element signature="e#12974#12997#0" expanded="true" />
-            <element signature="e#13338#13361#0" expanded="true" />
-            <element signature="e#13459#13482#0" expanded="true" />
-            <element signature="e#13823#13846#0" expanded="true" />
-            <element signature="e#13944#13967#0" expanded="true" />
-            <element signature="e#14308#14331#0" expanded="true" />
-            <element signature="e#14429#14452#0" expanded="true" />
-            <element signature="e#14799#14822#0" expanded="true" />
-            <element signature="e#14920#14943#0" expanded="true" />
-            <element signature="e#15518#15541#0" expanded="true" />
-            <element signature="e#15639#15662#0" expanded="true" />
-            <element signature="e#16003#16026#0" expanded="true" />
-            <element signature="e#16124#16147#0" expanded="true" />
+            <element signature="e#2058#2081#0" expanded="true" />
+            <element signature="e#2179#2202#0" expanded="true" />
+            <element signature="e#2543#2566#0" expanded="true" />
+            <element signature="e#2665#2688#0" expanded="true" />
+            <element signature="e#3029#3052#0" expanded="true" />
+            <element signature="e#3151#3174#0" expanded="true" />
+            <element signature="e#3515#3538#0" expanded="true" />
+            <element signature="e#3636#3659#0" expanded="true" />
+            <element signature="e#4000#4023#0" expanded="true" />
+            <element signature="e#4121#4144#0" expanded="true" />
+            <element signature="e#4738#4761#0" expanded="true" />
+            <element signature="e#4859#4882#0" expanded="true" />
+            <element signature="e#5223#5246#0" expanded="true" />
+            <element signature="e#5344#5367#0" expanded="true" />
+            <element signature="e#5708#5731#0" expanded="true" />
+            <element signature="e#5829#5852#0" expanded="true" />
+            <element signature="e#6193#6216#0" expanded="true" />
+            <element signature="e#6314#6337#0" expanded="true" />
+            <element signature="e#6678#6701#0" expanded="true" />
+            <element signature="e#6799#6822#0" expanded="true" />
+            <element signature="e#7417#7440#0" expanded="true" />
+            <element signature="e#7538#7561#0" expanded="true" />
+            <element signature="e#7908#7931#0" expanded="true" />
+            <element signature="e#8029#8052#0" expanded="true" />
+            <element signature="e#8393#8416#0" expanded="true" />
+            <element signature="e#8514#8537#0" expanded="true" />
+            <element signature="e#8878#8901#0" expanded="true" />
+            <element signature="e#8999#9022#0" expanded="true" />
+            <element signature="e#9363#9386#0" expanded="true" />
+            <element signature="e#9484#9507#0" expanded="true" />
+            <element signature="e#10108#10131#0" expanded="true" />
+            <element signature="e#10229#10252#0" expanded="true" />
+            <element signature="e#10593#10616#0" expanded="true" />
+            <element signature="e#10714#10737#0" expanded="true" />
+            <element signature="e#11078#11101#0" expanded="true" />
+            <element signature="e#11199#11222#0" expanded="true" />
+            <element signature="e#11563#11586#0" expanded="true" />
+            <element signature="e#11684#11707#0" expanded="true" />
+            <element signature="e#12048#12071#0" expanded="true" />
+            <element signature="e#12169#12192#0" expanded="true" />
+            <element signature="e#12787#12810#0" expanded="true" />
+            <element signature="e#12908#12931#0" expanded="true" />
+            <element signature="e#13272#13295#0" expanded="true" />
+            <element signature="e#13393#13416#0" expanded="true" />
+            <element signature="e#13757#13780#0" expanded="true" />
+            <element signature="e#13878#13901#0" expanded="true" />
+            <element signature="e#14242#14265#0" expanded="true" />
+            <element signature="e#14363#14386#0" expanded="true" />
+            <element signature="e#14733#14756#0" expanded="true" />
+            <element signature="e#14854#14877#0" expanded="true" />
+            <element signature="e#15452#15475#0" expanded="true" />
+            <element signature="e#15573#15596#0" expanded="true" />
+            <element signature="e#15937#15960#0" expanded="true" />
+            <element signature="e#16058#16081#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2482,95 +2341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3773584">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#867#887#0" expanded="true" />
-            <element signature="e#928#948#0" expanded="true" />
-            <element signature="e#1093#1112#0" expanded="true" />
-            <element signature="e#1142#1164#0" expanded="true" />
-            <element signature="e#2124#2147#0" expanded="true" />
-            <element signature="e#2245#2268#0" expanded="true" />
-            <element signature="e#2609#2632#0" expanded="true" />
-            <element signature="e#2731#2754#0" expanded="true" />
-            <element signature="e#3095#3118#0" expanded="true" />
-            <element signature="e#3217#3240#0" expanded="true" />
-            <element signature="e#3581#3604#0" expanded="true" />
-            <element signature="e#3702#3725#0" expanded="true" />
-            <element signature="e#4066#4089#0" expanded="true" />
-            <element signature="e#4187#4210#0" expanded="true" />
-            <element signature="e#4804#4827#0" expanded="true" />
-            <element signature="e#4925#4948#0" expanded="true" />
-            <element signature="e#5289#5312#0" expanded="true" />
-            <element signature="e#5410#5433#0" expanded="true" />
-            <element signature="e#5774#5797#0" expanded="true" />
-            <element signature="e#5895#5918#0" expanded="true" />
-            <element signature="e#6259#6282#0" expanded="true" />
-            <element signature="e#6380#6403#0" expanded="true" />
-            <element signature="e#6744#6767#0" expanded="true" />
-            <element signature="e#6865#6888#0" expanded="true" />
-            <element signature="e#7483#7506#0" expanded="true" />
-            <element signature="e#7604#7627#0" expanded="true" />
-            <element signature="e#7974#7997#0" expanded="true" />
-            <element signature="e#8095#8118#0" expanded="true" />
-            <element signature="e#8459#8482#0" expanded="true" />
-            <element signature="e#8580#8603#0" expanded="true" />
-            <element signature="e#8944#8967#0" expanded="true" />
-            <element signature="e#9065#9088#0" expanded="true" />
-            <element signature="e#9429#9452#0" expanded="true" />
-            <element signature="e#9550#9573#0" expanded="true" />
-            <element signature="e#10174#10197#0" expanded="true" />
-            <element signature="e#10295#10318#0" expanded="true" />
-            <element signature="e#10659#10682#0" expanded="true" />
-            <element signature="e#10780#10803#0" expanded="true" />
-            <element signature="e#11144#11167#0" expanded="true" />
-            <element signature="e#11265#11288#0" expanded="true" />
-            <element signature="e#11629#11652#0" expanded="true" />
-            <element signature="e#11750#11773#0" expanded="true" />
-            <element signature="e#12114#12137#0" expanded="true" />
-            <element signature="e#12235#12258#0" expanded="true" />
-            <element signature="e#12853#12876#0" expanded="true" />
-            <element signature="e#12974#12997#0" expanded="true" />
-            <element signature="e#13338#13361#0" expanded="true" />
-            <element signature="e#13459#13482#0" expanded="true" />
-            <element signature="e#13823#13846#0" expanded="true" />
-            <element signature="e#13944#13967#0" expanded="true" />
-            <element signature="e#14308#14331#0" expanded="true" />
-            <element signature="e#14429#14452#0" expanded="true" />
-            <element signature="e#14799#14822#0" expanded="true" />
-            <element signature="e#14920#14943#0" expanded="true" />
-            <element signature="e#15518#15541#0" expanded="true" />
-            <element signature="e#15639#15662#0" expanded="true" />
-            <element signature="e#16003#16026#0" expanded="true" />
-            <element signature="e#16124#16147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.226415">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-          <folding>
-            <element signature="e#838#858#0" expanded="true" />
-            <element signature="e#899#919#0" expanded="true" />
-            <element signature="e#1065#1092#0" expanded="true" />
-            <element signature="e#1212#1234#0" expanded="true" />
-            <element signature="e#1379#1406#0" expanded="true" />
-            <element signature="e#1527#1552#0" expanded="true" />
-            <element signature="e#1585#1607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41284403">
@@ -2607,28 +2377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_pronunciacion.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.384">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categorias.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2640,11 +2388,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.300885">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#234#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/InformacionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3761062">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13274336">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.7743363">
+          <caret line="267" column="6" selection-start-line="267" selection-start-column="6" selection-end-line="267" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#234#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1122#1150#0" expanded="false" />
+            <element signature="e#1188#1224#0" expanded="false" />
+            <element signature="e#1328#1355#0" expanded="false" />
+            <element signature="e#1393#1423#0" expanded="false" />
+            <element signature="e#1531#1564#0" expanded="false" />
+            <element signature="e#1602#1635#0" expanded="false" />
+            <element signature="e#1751#1790#0" expanded="false" />
+            <element signature="e#1828#1866#0" expanded="false" />
+            <element signature="e#1979#2013#0" expanded="false" />
+            <element signature="e#2051#2084#0" expanded="false" />
+            <element signature="e#2196#2234#0" expanded="false" />
+            <element signature="e#2272#2309#0" expanded="false" />
+            <element signature="e#2417#2451#0" expanded="false" />
+            <element signature="e#2489#2522#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22123894">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1095#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.943396">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#1095#1116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2653,9 +2521,134 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.792">
+        <state vertical-scroll-proportion="-9.3396225">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_abc_.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1095#1114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07177033">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_abc_.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#1095#1114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_palabras.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1067#1099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_informacion.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_informacion.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_informacion.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.541667">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_categorias.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.216">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#843#863#0" expanded="true" />
+            <element signature="e#904#924#0" expanded="true" />
+            <element signature="e#1069#1088#0" expanded="true" />
+            <element signature="e#1118#1140#0" expanded="true" />
+            <element signature="e#1231#1254#0" expanded="true" />
+            <element signature="e#2042#2067#0" expanded="true" />
+            <element signature="e#2160#2183#0" expanded="true" />
+            <element signature="e#2214#2240#0" expanded="true" />
+            <element signature="e#2282#2305#0" expanded="true" />
+            <element signature="e#2672#2697#0" expanded="true" />
+            <element signature="e#2790#2813#0" expanded="true" />
+            <element signature="e#2844#2870#0" expanded="true" />
+            <element signature="e#2912#2935#0" expanded="true" />
+            <element signature="e#3296#3321#0" expanded="true" />
+            <element signature="e#3414#3437#0" expanded="true" />
+            <element signature="e#3468#3494#0" expanded="true" />
+            <element signature="e#3536#3559#0" expanded="true" />
+            <element signature="e#3931#3956#0" expanded="true" />
+            <element signature="e#4049#4072#0" expanded="true" />
+            <element signature="e#4103#4129#0" expanded="true" />
+            <element signature="e#4171#4194#0" expanded="true" />
+            <element signature="e#4567#4592#0" expanded="true" />
+            <element signature="e#4685#4708#0" expanded="true" />
+            <element signature="e#4739#4765#0" expanded="true" />
+            <element signature="e#4807#4830#0" expanded="true" />
+            <element signature="e#5205#5230#0" expanded="true" />
+            <element signature="e#5323#5346#0" expanded="true" />
+            <element signature="e#5377#5403#0" expanded="true" />
+            <element signature="e#5445#5468#0" expanded="true" />
+            <element signature="e#5835#5860#0" expanded="true" />
+            <element signature="e#5953#5976#0" expanded="true" />
+            <element signature="e#6007#6033#0" expanded="true" />
+            <element signature="e#6075#6098#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2670,20 +2663,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_sub_categorias.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_sub_categorias.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1146789">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_abc_.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#867#887#0" expanded="true" />
+            <element signature="e#928#948#0" expanded="true" />
+            <element signature="e#1093#1112#0" expanded="true" />
+            <element signature="e#1142#1164#0" expanded="true" />
+            <element signature="e#2058#2081#0" expanded="true" />
+            <element signature="e#2179#2202#0" expanded="true" />
+            <element signature="e#2543#2566#0" expanded="true" />
+            <element signature="e#2665#2688#0" expanded="true" />
+            <element signature="e#3029#3052#0" expanded="true" />
+            <element signature="e#3151#3174#0" expanded="true" />
+            <element signature="e#3515#3538#0" expanded="true" />
+            <element signature="e#3636#3659#0" expanded="true" />
+            <element signature="e#4000#4023#0" expanded="true" />
+            <element signature="e#4121#4144#0" expanded="true" />
+            <element signature="e#4738#4761#0" expanded="true" />
+            <element signature="e#4859#4882#0" expanded="true" />
+            <element signature="e#5223#5246#0" expanded="true" />
+            <element signature="e#5344#5367#0" expanded="true" />
+            <element signature="e#5708#5731#0" expanded="true" />
+            <element signature="e#5829#5852#0" expanded="true" />
+            <element signature="e#6193#6216#0" expanded="true" />
+            <element signature="e#6314#6337#0" expanded="true" />
+            <element signature="e#6678#6701#0" expanded="true" />
+            <element signature="e#6799#6822#0" expanded="true" />
+            <element signature="e#7417#7440#0" expanded="true" />
+            <element signature="e#7538#7561#0" expanded="true" />
+            <element signature="e#7908#7931#0" expanded="true" />
+            <element signature="e#8029#8052#0" expanded="true" />
+            <element signature="e#8393#8416#0" expanded="true" />
+            <element signature="e#8514#8537#0" expanded="true" />
+            <element signature="e#8878#8901#0" expanded="true" />
+            <element signature="e#8999#9022#0" expanded="true" />
+            <element signature="e#9363#9386#0" expanded="true" />
+            <element signature="e#9484#9507#0" expanded="true" />
+            <element signature="e#10108#10131#0" expanded="true" />
+            <element signature="e#10229#10252#0" expanded="true" />
+            <element signature="e#10593#10616#0" expanded="true" />
+            <element signature="e#10714#10737#0" expanded="true" />
+            <element signature="e#11078#11101#0" expanded="true" />
+            <element signature="e#11199#11222#0" expanded="true" />
+            <element signature="e#11563#11586#0" expanded="true" />
+            <element signature="e#11684#11707#0" expanded="true" />
+            <element signature="e#12048#12071#0" expanded="true" />
+            <element signature="e#12169#12192#0" expanded="true" />
+            <element signature="e#12787#12810#0" expanded="true" />
+            <element signature="e#12908#12931#0" expanded="true" />
+            <element signature="e#13272#13295#0" expanded="true" />
+            <element signature="e#13393#13416#0" expanded="true" />
+            <element signature="e#13757#13780#0" expanded="true" />
+            <element signature="e#13878#13901#0" expanded="true" />
+            <element signature="e#14242#14265#0" expanded="true" />
+            <element signature="e#14363#14386#0" expanded="true" />
+            <element signature="e#14733#14756#0" expanded="true" />
+            <element signature="e#14854#14877#0" expanded="true" />
+            <element signature="e#15452#15475#0" expanded="true" />
+            <element signature="e#15573#15596#0" expanded="true" />
+            <element signature="e#15937#15960#0" expanded="true" />
+            <element signature="e#16058#16081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_palabras.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_palabras.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.792">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categorias.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="49" />
           <folding />
         </state>
@@ -2691,110 +2798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023923445">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Abc_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.300885">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AsistenteBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/AdministradorBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#234#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/InformacionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3761062">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/CategoriasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13274336">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/PalabrasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/SubCategoriasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#234#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1150#0" expanded="true" />
-            <element signature="e#1188#1224#0" expanded="true" />
-            <element signature="e#1328#1355#0" expanded="true" />
-            <element signature="e#1393#1423#0" expanded="true" />
-            <element signature="e#1531#1564#0" expanded="true" />
-            <element signature="e#1602#1635#0" expanded="true" />
-            <element signature="e#1751#1790#0" expanded="true" />
-            <element signature="e#1828#1866#0" expanded="true" />
-            <element signature="e#1979#2013#0" expanded="true" />
-            <element signature="e#2051#2084#0" expanded="true" />
-            <element signature="e#2196#2234#0" expanded="true" />
-            <element signature="e#2272#2309#0" expanded="true" />
-            <element signature="e#2417#2451#0" expanded="true" />
-            <element signature="e#2489#2522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cl/blogspot/aprehendemapudungun/aprehendemapudungun/Tablas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4617347">
-          <caret line="286" column="4" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="4" />
+        <state vertical-scroll-proportion="4.0669856">
+          <caret line="170" column="49" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
           <folding />
         </state>
       </provider>
