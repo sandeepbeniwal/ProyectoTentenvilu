@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "376590918227",
+    "firebase_url": "https://aprehendemapudungun.firebaseio.com",
+    "project_id": "aprehendemapudungun",
+    "storage_bucket": "aprehendemapudungun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376590918227:android:d356dc6044959e0d",
+        "android_client_info": {
+          "package_name": "cl.blogspot.aprehendemapudungun.aprehendemapudungun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376590918227-mfhcelpilai9sjo35dlv6a0cd8a33ggn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.blogspot.aprehendemapudungun.aprehendemapudungun",
+            "certificate_hash": "9D9C5CEDEC93E8293F38492BBAA6A6BF16E81F67"
+          }
+        },
+        {
+          "client_id": "376590918227-r7ht715n2ekne6cc67m5s9f7h6igtktf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAQJfb2Nrjo848aIKrpNLLTIhsrmMZnPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376590918227-r7ht715n2ekne6cc67m5s9f7h6igtktf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

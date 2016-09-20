@@ -7,138 +7,168 @@
     tools:context="cl.blogspot.aprehendemapudungun.aprehendemapudungun.CategoriasActivity">
 
 
-    <LinearLayout
+    <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:name="cl.blogspot.aprehendemapudungun.aprehendemapudungun.BannerFrag"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_banner" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="left"
-        android:layout_weight="1"
-        android:background="@color/LinearLayoutA">
+        android:layout_weight="1">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
-            android:src="@mipmap/sinnombre1"
-            android:layout_marginTop="@dimen/Margen_logo"
-            android:layout_marginBottom="@dimen/Margen_logo" />
+            android:src="@mipmap/banner"
+            android:scaleType="fitStart"
+            android:layout_gravity="center_horizontal|top" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/TituloCat"
+            android:text="@string/titulo_act_categorias"
+            android:id="@+id/tv_tituloCategorias"
             android:textSize="@dimen/tamano_titulo"
-            android:textColor="@color/ColorLetras" />
+            android:layout_gravity="center_horizontal|center" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/banner_inferior"
+            android:scaleType="fitEnd"
+            android:layout_gravity="center_horizontal|bottom"/>
 
-    </LinearLayout>
-
+    </FrameLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="left"
-        android:layout_weight="9"
-        android:scrollbars="vertical"
-        android:background="@color/LinearLayoutB">
+        android:layout_height="match_parent"
+        android:layout_weight="1">
 
-        <Button
-            android:layout_width="wrap_content"
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pronunciación"
-            android:id="@+id/btn_pronunciacion"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+            android:verticalScrollbarPosition="defaultPosition">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pronombres"
-            android:id="@+id/btn_pronombres"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Números"
-            android:id="@+id/btn_numeros"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Pronunciación"
+                        android:id="@+id/btn_pronunciacion"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:tag="1"
+                        android:onClick="ejecutarBotonesCategorias" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Saludo y despedida"
-            android:id="@+id/btn_saludos"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Pronombres"
+                        android:id="@+id/btn_pronombres"
+                        android:layout_column="1"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:tag="2"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:onClick="ejecutarBotonesCategorias"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Conectores gram."
-            android:id="@+id/btn_conectores"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Saludo y despedida"
+                        android:id="@+id/btn_saludos"
+                        android:layout_column="2"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:tag="3"
+                        android:onClick="ejecutarBotonesCategorias"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Interrogativos"
-            android:id="@+id/btn_interrogativos"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Interrogativos"
+                        android:id="@+id/btn_interrogativos"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:tag="4"
+                        android:onClick="ejecutarBotonesCategorias"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Calendario"
-            android:id="@+id/btn_calendario"
-            android:background="@color/FondoBoton"
-            android:height="@dimen/Tam_alt_btns_cat"
-            android:textColor="@color/ColorTextoBoton"
-            android:textSize="@dimen/Tam_letra_btns"
-            android:width="@dimen/Tam_anch_btns_cat"
-            android:layout_marginTop="@dimen/Margen_btn_cat"
-            android:onClick="ejecutarBotonesCategorias" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Conectores gram."
+                        android:id="@+id/btn_conectores"
+                        android:layout_column="2"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:tag="5"
+                        android:onClick="ejecutarBotonesCategorias"/>
 
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Números"
+                        android:id="@+id/btn_numeros"
+                        android:layout_column="1"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:tag="6"
+                        android:onClick="ejecutarBotonesCategorias"/>
 
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redondear_boton_categorias"
+                        android:text="Calendario"
+                        android:id="@+id/btn_calendario"
+                        android:textColor="@color/ColorTextoBoton"
+                        android:textSize="@dimen/tamano_texto_boton"
+                        android:width="@dimen/ancho_boton_categorias"
+                        android:layout_marginLeft="@dimen/margen_izq_boton"
+                        android:layout_marginTop="@dimen/margen_sup_boton"
+                        android:tag="7"
+                        android:onClick="ejecutarBotonesCategorias"
+                        android:layout_marginBottom="@dimen/margen_inf_boton" />
 
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
 
     </LinearLayout>
-
 
 </LinearLayout>

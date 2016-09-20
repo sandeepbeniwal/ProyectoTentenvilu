@@ -2,22 +2,25 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="elevacion_app_bar">4dp</dimen>
+    <dimen name="margen_boton_flotante">10dp</dimen>
+    <dimen name="elevacion_boton_flotante">6dp</dimen>
+    <dimen name="tamano_texto_boton">14pt</dimen>
+    <dimen name="margen_sup_boton">20dp</dimen>
+    <dimen name="ancho_boton">320dp</dimen>
+    <dimen name="ancho_boton_categorias">350dp</dimen>
+    <dimen name="ancho_boton_abc">150dp</dimen>
+    <dimen name="margen_izq_boton">10dp</dimen>
+    <dimen name="margen_inf_boton">10dp</dimen>
+    <dimen name="tamano_texto_informacion">17sp</dimen>
+    <dimen name="tamano_texto_mensajes">17sp</dimen>
     <dimen name="tamano_titulo">45sp</dimen>
-    <dimen name="tamano_Subtitulo">35sp</dimen>
-    <dimen name="Tam_letra_btns">25sp</dimen>
-    <dimen name="Tam_alt_btns">70dp</dimen>
-    <dimen name="Tam_alt_btns_cat">50dp</dimen>
-    <dimen name="Tam_anch_btns">200dp</dimen>
-    <dimen name="Tam_anch_btns_cat">300dp</dimen>
-    <dimen name="Margen_btn">10dp</dimen>
-    <dimen name="Margen_btn_ABC">5dp</dimen>
-    <dimen name="Margen_btn_cat">5dp</dimen>
-    <dimen name="Margen_Subtit">10dp</dimen>
-    <dimen name="Tamano_texto_inf">25sp</dimen>
-    <dimen name="Margen_logo">7dp</dimen>
-    <dimen name="Tamano_texto_subcat">20sp</dimen>
-    <dimen name="Tamano_texto_pron">20sp</dimen>
-    <dimen name="Margen_Tit_inf">10dp</dimen>
-    <dimen name="Margen_Tit_cat">10dp</dimen>
-    <dimen name="Margen_Tit_SubCat">10dp</dimen>
+    <dimen name="tamano_text_todocat">20sp</dimen>
+    <dimen name="margen_izq_texto">15dp</dimen>
+    <dimen name="tamano_texto_todocat">20sp</dimen>
+    <dimen name="margen_sup_texto">10dp</dimen>
+    <dimen name="margen_izq_listv">15dp</dimen>
+    <dimen name="margen_sup_listv">10dp</dimen>
+    <dimen name="tamano_texto_botonland">12pt</dimen>
+
 </resources>

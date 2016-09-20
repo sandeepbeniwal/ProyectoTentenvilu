@@ -29,6 +29,7 @@ public class CategoriasActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categorias);
 
@@ -42,42 +43,44 @@ public class CategoriasActivity extends AppCompatActivity
 
     }
 
-    protected void ejecutarBotonesCategorias(View view)
+    public void ejecutarBotonesCategorias(View view)
     {
 
         switch (view.getId())
         {
 
             case R.id.btn_interrogativos:
-                traspasarTexto(btn_interrogativos.getText().toString()); break;
+                traspasarTexto(btn_interrogativos.getTag().toString()); break;
 
             case R.id.btn_pronunciacion:
-                traspasarTexto(btn_pronunciacion.getText().toString()); break;
+                traspasarTexto(btn_pronunciacion.getTag().toString()); break;
 
             case R.id.btn_conectores:
-                traspasarTexto(btn_conectores.getText().toString()); break;
+                traspasarTexto(btn_conectores.getTag().toString()); break;
 
             case R.id.btn_pronombres:
-                traspasarTexto(btn_pronombres.getText().toString()); break;
+                traspasarTexto(btn_pronombres.getTag().toString()); break;
 
             case R.id.btn_calendario:
-                traspasarTexto(btn_calendario.getText().toString()); break;
+                traspasarTexto(btn_calendario.getTag().toString()); break;
 
             case R.id.btn_numeros:
-                traspasarTexto(btn_numeros.getText().toString()); break;
+                traspasarTexto(btn_numeros.getTag().toString()); break;
 
             case R.id.btn_saludos:
-                traspasarTexto(btn_saludos.getText().toString()); break;
+                traspasarTexto(btn_saludos.getTag().toString()); break;
 
         }
     }
 
-
     protected void traspasarTexto(String textoBtn)
     {
-        intent = new Intent(CategoriasActivity.this, SubCategoriasActivity.class);
+
+        intent = new Intent(CategoriasActivity.this, TodoCategoriasActivity.class);
         intent.putExtra("categoria", textoBtn);
         startActivity(intent);
+
     }
+
 
 }//.

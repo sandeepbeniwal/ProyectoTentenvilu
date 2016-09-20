@@ -9,9 +9,11 @@
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
 import android.support.v7.app.AppCompatActivity;
+import android.content.DialogInterface;
+import android.view.LayoutInflater;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.widget.Button;
-import android.widget.Toast;
 import android.os.Bundle;
 import android.view.View;
 
@@ -23,18 +25,21 @@ public class Abc_Activity extends AppCompatActivity
 {
 
     private Button btn_A, btn_B, btn_C, btn_D, btn_E, btn_F,btn_G,
-                btn_H,btn_I,btn_J,btn_K, btn_L,btn_M,btn_N, btn_Ñ,
-                btn_O, btn_P, btn_Q,btn_R,btn_S,btn_T,btn_U,btn_V,
-                btn_W, btn_X, btn_Y,btn_Z;
+            btn_H,btn_I,btn_J,btn_K, btn_L,btn_M,btn_N, btn_Ñ,
+            btn_O, btn_P, btn_Q,btn_R,btn_S,btn_T,btn_U,btn_V,
+            btn_W, btn_X, btn_Y,btn_Z;
 
+    private AlertDialog.Builder builder;
+    private LayoutInflater inflater;
     private Intent i;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abc_);
-
 
         btn_A = (Button) findViewById(R.id.btn_A);
         btn_B = (Button) findViewById(R.id.btn_B);
@@ -67,7 +72,7 @@ public class Abc_Activity extends AppCompatActivity
     }
 
 
-    protected void mostrarPalabras(View view)
+    public void mostrarPalabras(View view)
     {
 
 
@@ -133,29 +138,44 @@ public class Abc_Activity extends AppCompatActivity
 
     }
 
-    protected void palabrasNoDisponibles(View view)
+    public void palabrasNoDisponibles(View view)
     {
 
         switch (view.getId())
         {
 
-            case R.id.btn_K: mensajeToast(); break;
+            case R.id.btn_K: mensajeAlert(); break;
 
-            case R.id.btn_Ñ: mensajeToast(); break;
+            case R.id.btn_Ñ: mensajeAlert(); break;
 
-            case R.id.btn_W: mensajeToast(); break;
+            case R.id.btn_W: mensajeAlert(); break;
 
-            case R.id.btn_X: mensajeToast(); break;
+            case R.id.btn_X: mensajeAlert(); break;
 
         }
 
     }
 
-    private void mensajeToast()
+    public void mensajeAlert()
     {
 
-        String mensaje = "No existen palabras con esta letra";
-        Toast.makeText(getApplicationContext(), mensaje, Toast.LENGTH_LONG).show();
+        builder = new AlertDialog.Builder(this);
+        inflater = getLayoutInflater();
+        AlertDialog alert;
+
+        builder.setView(inflater.inflate(R.layout.mensaje_layout, null))
+
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which)
+                    {
+                        dialog.cancel();
+
+                    }
+                });
+        alert = builder.create();
+        alert.show();
 
     }
 

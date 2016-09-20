@@ -50,11 +50,11 @@ public class AsistenteBD extends SQLiteOpenHelper
         db.execSQL(AdministradorBD.CREATE_TABLE_H);
         db.execSQL(AdministradorBD.CREATE_TABLE_I);
         db.execSQL(AdministradorBD.CREATE_TABLE_J);
-      //db.execSQL(AdministradorBD.CREATE_TABLE_K);
+        //db.execSQL(AdministradorBD.CREATE_TABLE_K);
         db.execSQL(AdministradorBD.CREATE_TABLE_L);
         db.execSQL(AdministradorBD.CREATE_TABLE_M);
         db.execSQL(AdministradorBD.CREATE_TABLE_N);
-      //db.execSQL(AdministradorBD.CREATE_TABLE_Ñ);
+        //db.execSQL(AdministradorBD.CREATE_TABLE_Ñ);
         db.execSQL(AdministradorBD.CREATE_TABLE_O);
         db.execSQL(AdministradorBD.CREATE_TABLE_P);
         db.execSQL(AdministradorBD.CREATE_TABLE_Q);
@@ -63,8 +63,8 @@ public class AsistenteBD extends SQLiteOpenHelper
         db.execSQL(AdministradorBD.CREATE_TABLE_T);
         db.execSQL(AdministradorBD.CREATE_TABLE_U);
         db.execSQL(AdministradorBD.CREATE_TABLE_V);
-      //db.execSQL(AdministradorBD.CREATE_TABLE_W);
-      //db.execSQL(AdministradorBD.CREATE_TABLE_X);
+        //db.execSQL(AdministradorBD.CREATE_TABLE_W);
+        //db.execSQL(AdministradorBD.CREATE_TABLE_X);
         db.execSQL(AdministradorBD.CREATE_TABLE_Y);
         db.execSQL(AdministradorBD.CREATE_TABLE_Z);
 
@@ -78,11 +78,11 @@ public class AsistenteBD extends SQLiteOpenHelper
         db.execSQL(Tablas.INSERTAR_LETRA_H);
         db.execSQL(Tablas.INSERTAR_LETRA_I);
         db.execSQL(Tablas.INSERTAR_LETRA_J);
-      //db.execSQL(Tablas.INSERTAR_LETRA_K);
+        //db.execSQL(Tablas.INSERTAR_LETRA_K);
         db.execSQL(Tablas.INSERTAR_LETRA_L);
         db.execSQL(Tablas.INSERTAR_LETRA_M);
         db.execSQL(Tablas.INSERTAR_LETRA_N);
-      //db.execSQL(Tablas.INSERTAR_LETRA_Ñ);
+        //db.execSQL(Tablas.INSERTAR_LETRA_Ñ);
         db.execSQL(Tablas.INSERTAR_LETRA_O);
         db.execSQL(Tablas.INSERTAR_LETRA_P);
         db.execSQL(Tablas.INSERTAR_LETRA_Q);
@@ -91,8 +91,8 @@ public class AsistenteBD extends SQLiteOpenHelper
         db.execSQL(Tablas.INSERTAR_LETRA_T);
         db.execSQL(Tablas.INSERTAR_LETRA_U);
         db.execSQL(Tablas.INSERTAR_LETRA_V);
-      //db.execSQL(Tablas.INSERTAR_LETRA_W);
-      //db.execSQL(Tablas.INSERTAR_LETRA_X);
+        //db.execSQL(Tablas.INSERTAR_LETRA_W);
+        //db.execSQL(Tablas.INSERTAR_LETRA_X);
         db.execSQL(Tablas.INSERTAR_LETRA_Y);
         db.execSQL(Tablas.INSERTAR_LETRA_Z);
 

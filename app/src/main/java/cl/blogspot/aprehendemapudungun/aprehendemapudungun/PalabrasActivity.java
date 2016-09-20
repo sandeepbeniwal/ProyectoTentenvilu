@@ -6,7 +6,6 @@
  *
  */
 
-
 package cl.blogspot.aprehendemapudungun.aprehendemapudungun;
 
 import android.support.v7.app.AppCompatActivity;
@@ -36,7 +35,6 @@ public class PalabrasActivity extends AppCompatActivity
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_palabras);
-
 
         administradorBD = new AdministradorBD(this);
         tv_letra = (TextView) findViewById(R.id.tv_letra);
@@ -115,4 +113,4 @@ public class PalabrasActivity extends AppCompatActivity
 
     }
 
-}//.
+}//..

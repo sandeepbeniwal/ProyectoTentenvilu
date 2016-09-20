@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#E0E0E0</color>
-    <color name="colorPrimaryDark">#BDBDBD</color>
-    <color name="colorAccent">#212121</color>
-    <color name="LinearLayoutA">#ffffff</color>
-    <color name="LinearLayoutB">#ffffff</color>
-    <color name="FondoBoton">#424242</color>
-    <color name="ColorTextoBoton">#fafafa</color>
-    <color name="ColorLetras">#212121</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColor">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="ColorTextoBoton">#ffffff</color>
+    <color name="ColorBotonesCategorias">#795548</color>
+    <color name="appBarInformacion">#f44336</color>
 </resources>

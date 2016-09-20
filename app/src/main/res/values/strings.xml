@@ -1,69 +1,65 @@
 <resources>
-    <!--
-        Esta obra está sujeta a la licencia Reconocimiento-NoComercial-CompartirIgual
-        4.0 Internacional de Creative Commons. Para ver una copia de esta licencia,
-        visite http://creativecommons.org/licenses/by-nc-sa/4.0/.
-    -->
-    <string name="app_name">Aprehende Mapudungún</string>
-
-    <string name="titulo">Aprehende Mapudungún</string>
-    <string name="titulo_land">Aprehende \nMapudungún</string>
-
-    <string name="TituloAbc">Abecedario</string>
-    <string name="TituloActPalabras">Palabras con la letra:</string>
-    <string name="TituloActPalabras_land">Palabras con \nla letra:</string>
-
-    <string name="boton_abecedario">Abecedario</string>
-
-
+    <string name="app_name">Aprehende Mapudungun</string>
+    <string name="boton_diccionario">Diccionario</string>
     <string name="boton_categorias">Categorias</string>
-    <string name="boton_informacion">Información</string>
-
-
-    <string name="SubtitActPalabras">letra</string>
-    <string name="TituloCat">Categorias</string>
-    <string name="TituloInf">Información</string>
+    <string name="titulo_act_principal">Aprehende Mapudungún</string>
+    <string name="titulo_act_categorias">Categorias</string>
+    <string name="titulo_act_abecedario">Diccionario</string>
+    <string name="sub_tit_act_abecedario">letra</string>
 
     <!--
-               *** Actividad Información ***
+            Banner Portrait
+    id del banner
+    ca-app-pub-2918734156744524/2043623543
     -->
-    <string name="TextoInf"><b>Desarrollada por:</b>\nGermán Riveros Sepúlveda
-        <b>\nE-mail:</b>\ngerman.riveross@gmail.com
-        <b>\nGithub:</b>\nhttps://github.com/profGerman/ProyectoTentenvilu
-        <b>\nBlog:</b> \nhttp://aprehendemapudungun.blogspot.cl
+    <string name="banner_ad_unit_id">ca-app-pub-2918734156744524/2043623543</string>
+
+    <!--
+        Banner Landscape
+        id del banner
+        ca-app-pub-2918734156744524/7252552344
+    -->
+    <string name="banner_ad_unit_id_land">ca-app-pub-2918734156744524/7252552344</string>
+
+    <string name="texto_mensajes">No existen palabras con esta letra\n</string>
+
+    <string name="texto_informacion"><b>Desarrollada por:</b>\nGermán Riveros Sepúlveda
+        \n\n<b>E-mail:</b>\ning.germanriveros@gmail.com
+        \n\n<b>Github:</b>
+        \nhttps://github.com/profGerman/ProyectoTentenvilu
     </string>
 
     <!--
-               *** Números ***
+           *** Números ***
     -->
+
     <string name="TitCatNum">Números</string>
-    <string name="TextoNumeros">
-        <b>Kiñe: </b> uno [ 1 ]
-        \n<b> Epu:  </b> dos [ 2 ]
-        \n<b> Küla: </b> tres [ 3 ]
-        \n<b> Meli: </b> cuatro [ 4 ]
-        \n<b> Kechu: </b> cinco [ 5 ]
-        \n<b> Kayu: </b> seis [ 6 ]
-        \n<b> Regle: </b> siete [ 7 ]
-        \n<b> Pura: </b> ocho [ 8 ]
-        \n<b> Aylla: </b> nueve [ 9 ]
-        \n<b> Mari: </b> diez [ 10 ]
-        \n<b> Mari kiñe: </b> once [ 11 ]
-        \n<b> Mari epu: </b> doce [ 12 ]
-        \n<b> Epu mari: </b> veinte [ 20 ]
-        \n<b> Epu mari kiñe: </b> veintiuno [ 21 ]
-        \n<b> Epu mari kechu: </b> veinticinco [ 25 ]
-        \n<b> Meli mari: </b> cuarenta [ 40 ]
-        \n<b> Regle mari: </b> setenta [ 70 ]
-        \n<b> Pataka: </b> cien [ 100 ]
-        \n<b> Kiñe pataka epu mari: </b> ciento veinte [ 120 ]
-        \n<b> Pura pataka kechu mari: </b> ochocientos cincuenta [ 850 ]
-        \n<b> Waranga: </b> mil [ 1000 ]
-        \n<b> Epu waranga: </b> dos mil [ 2000 ] \n
+    <string name="TextoNumeros"><b>1 Kiñe: </b> uno
+        \n<b>2 Epu:  </b> dos
+        \n<b>3 Küla: </b> tres
+        \n<b>4 Meli: </b> cuatro
+        \n<b>5 Kechu: </b> cinco
+        \n<b>6 Kayu: </b> seis
+        \n<b>7 Regle: </b> siete
+        \n<b>8 Pura: </b> ocho
+        \n<b>9 Aylla: </b> nueve
+        \n<b>10 Mari: </b> diez
+        \n<b>11 Mari kiñe: </b> once
+        \n<b>12 Mari epu: </b> doce
+        \n<b>20 Epu mari: </b> veinte
+        \n<b>21 Epu mari kiñe: </b> veintiuno
+        \n<b>25 Epu mari kechu: </b> veinticinco
+        \n<b>40 Meli mari: </b> cuarenta
+        \n<b>70 Regle mari: </b> setenta
+        \n<b>100 Pataka: </b> cien
+        \n<b>120 Kiñe pataka epu mari: </b> ciento veinte
+        \n<b>850 Pura pataka kechu mari: </b> ochocientos cincuenta
+        \n<b>1000 Waranga: </b> mil
+        \n<b>2000 Epu waranga: </b> dos mil \n
     </string>
 
     <!--
-               *** Pronunciación ***
+           *** Pronunciación ***
     -->
     <string name="TitCatPron">Pronunciación</string>
     <string name="TextoPronunciacion"><b>A:</b> como la <b> a</b> española.\n<b>Ch:</b> como la <b>
@@ -97,7 +93,6 @@
         ocaciones aparece una letra <b>sh</b> supernumeraria que se utiliza para marcar el tono
         afectivo o cariñoso. Suena como una <b> ch</b> más fricativa(arrastrada).\n
     </string>
-
 
     <!--
                *** Pronombres ***
@@ -137,6 +132,7 @@
         \n\t<b>Tiyechi:</b> aquel, aquella, aquello \n
     </string>
 
+
     <!--
                *** Saludo y despedida ***
     -->
@@ -170,7 +166,7 @@
     -->
     <string name="TitCatConectores">Conectores \ngramaticales</string>
     <string name="TextoConectores"><b>RELACIONADOS AL TIEMPO</b>
-        \n<b>Antü:</b> día, sol
+        \n<b>Antü:</b> día
         \n<b>Epuwe antü doy:</b> pasado mañana
         \n<b>Epuwe antü mew:</b> anteayer
         \n<b>Fachantü:</b> hoy día, este día
@@ -255,7 +251,6 @@
         \n<b>Ya may:</b> esta bien \n
     </string>
 
-
     <!--
                *** Interrogativos ***
     -->
@@ -284,30 +279,39 @@
         \n<b>¿Chew tuwimi?:</b> ¿de donde vienes? \n
     </string>
 
-
     <!--
            *** Calendario ***
     -->
     <string name="TitCatCalendario">Calendario</string>
-    <string name="TextoCalendario"><b>Wetripantu</b> (año nuevo)
-        \n<b>Kiñe Küyen: </b> del 21 de junio al 18 de julio.
-        \n<b>Epu Küyen:</b> del 19 de julio al 15 de agosto.
-        \n<b>Küla Küyen:</b> del 16 de agosto al 13 de septiembre.
-        \n<b>Meli Küyen:</b> del 14 de septiembre al 11 de octubre.
-        \n<b>Kechu Küyen:</b> del 12 de octubre al 08 de noviembre.
-        \n<b>Cayu Küyen:</b> del 09 de noviembre al 06 de diciembre.
-        \n<b>Regle Küyen:</b> del 07 de diciembre al 03 de enero.
-        \n<b>Purra Küyen:</b> del 04 de enero al 01 de febrero.
-        \n<b>Ailla Küyen:</b> del 02 de febrero al 29 de febrero.
-        \n<b>Mari Küyen:</b> del 01 de marzo al 28 de marzo.
-        \n<b>Mari Kiñe Küyen:</b> del 29 de marzo al 25 de abril.
-        \n<b>Mari Epu Küyen:</b> del 26 de abril al 23 de mayo.
-        \n<b>Mari Küla Küyen:</b> del 24 de mayo al 20 de junio.
+    <string name="TextoCalendario"><i>El calendario Mapuche consta de 13 meses:\n</i>
+        \n<b>1. Kiñe Küyen: </b> del 21 de junio al 18 de julio.
+        \n<b>2. Epu Küyen:</b> del 19 de julio al 15 de agosto.
+        \n<b>3. Küla Küyen:</b> del 16 de agosto al 13 de septiembre.
+        \n<b>4. Meli Küyen:</b> del 14 de septiembre al 11 de octubre.
+        \n<b>5. Kechu Küyen:</b> del 12 de octubre al 08 de noviembre.
+        \n<b>6. Cayu Küyen:</b> del 09 de noviembre al 06 de diciembre.
+        \n<b>7. Regle Küyen:</b> del 07 de diciembre al 03 de enero.
+        \n<b>8. Purra Küyen:</b> del 04 de enero al 01 de febrero.
+        \n<b>9. Ailla Küyen:</b> del 02 de febrero al 29 de febrero.
+        \n<b>10. Mari Küyen:</b> del 01 de marzo al 28 de marzo.
+        \n<b>11. Mari Kiñe Küyen:</b> del 29 de marzo al 25 de abril.
+        \n<b>12. Mari Epu Küyen:</b> del 26 de abril al 23 de mayo.
+        \n<b>13. Mari Küla Küyen:</b> del 24 de mayo al 20 de junio.
+        \n<b>Wetripantu</b> (año nuevo)
         \n\n<b>ESTACIONES</b>
         \n<b>Pukem:</b> invierno
         \n<b>Pewu:</b> primavera
         \n<b>Walüng:</b> verano
         \n<b>Rimü:</b> otoño \n
     </string>
+    <string name="btn_pronunciacion">Pronunciación</string>
+    <string name="btn_pronombres">Pronombres</string>
+    <string name="btn_saludo">Saludo y despedida</string>
+    <string name="btn_interrogativos">Interrogativos</string>
+    <string name="btn_conectores">Conectores gram.</string>
+    <string name="btn_numeros">Números</string>
+    <string name="btn_calendario">Calendario</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -3,65 +3,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context="cl.blogspot.aprehendemapudungun.aprehendemapudungun.PalabrasActivity">
 
-    <LinearLayout
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="cl.blogspot.aprehendemapudungun.aprehendemapudungun.BannerLand"
+        android:id="@+id/fragment_land"
+        tools:layout="@layout/fragment_banner_land" />
+
+
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-
-        android:gravity="left"
-        android:background="@color/LinearLayoutA">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView"
-            android:src="@mipmap/sinnombre1"
-            android:layout_marginTop="@dimen/Margen_logo"
-            android:layout_marginBottom="@dimen/Margen_logo" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/TituloActPalabras_land"
-            android:id="@+id/tv_texto"
-            android:textColor="@color/ColorLetras"
-            android:textSize="@dimen/tamano_titulo" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/SubtitActPalabras"
-            android:id="@+id/tv_letra"
-
-            android:textColor="@color/ColorLetras"
-            android:textSize="@dimen/tamano_Subtitulo"
-            android:paddingLeft="@dimen/Margen_Subtit"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/banner"
+        android:scaleType="centerCrop"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/LinearLayoutB">
+        android:orientation="horizontal">
 
-        <ListView
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/lista">
-        </ListView>
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
 
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_tit_act_abecedario"
+                android:id="@+id/tv_letra"
+                android:layout_gravity="center_vertical|center"
+                android:textSize="@dimen/tamano_titulo"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@mipmap/banner_lat_land"
+                android:scaleType="fitEnd"
+                android:layout_gravity="right|center_vertical" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lista"
+                android:layout_marginLeft="@dimen/margen_izq_listv"
+                android:layout_marginTop="@dimen/margen_sup_listv">
+            </ListView>
+
+        </LinearLayout>
 
     </LinearLayout>
-
-
-
-
 
 </LinearLayout>
