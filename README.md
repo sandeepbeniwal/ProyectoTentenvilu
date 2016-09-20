@@ -7,7 +7,4 @@ Aprehende Mapudungún es una aplicación que tiene como propósito promover tant
 Si tienes alguna idea o sugerencia para mejorar esta aplicación, puedes enviar un email a *ing.germanriveros@gmail.com*. 
 
 Descarga la App haciendo click [aquí] (https://play.google.com/store/apps/details?id=cl.blogspot.aprehendemapudungun.aprehendemapudungun&hl=es).
-![](https://github.com/profGerman/ProyectoTentenvilu/blob/master/imagenes/Principal.png)
-![](https://github.com/profGerman/ProyectoTentenvilu/blob/master/imagenes/Diccionario.png)
-![](https://github.com/profGerman/ProyectoTentenvilu/blob/master/imagenes/Diccionario_1.png)
-![](https://github.com/profGerman/ProyectoTentenvilu/blob/master/imagenes/Categorias.png)
+
